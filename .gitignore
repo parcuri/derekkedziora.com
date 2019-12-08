@@ -3,3 +3,9 @@ _drafts/
 
 # Mac system files
 .DS_Store
+
+# generated site folder 
+_site/ 
+
+# jekyll cahce 
+.jekyll-cache/Jekyll/Cache

@@ -1,0 +1,47 @@
+title: "Derek Kedziora's Blog" 
+author: Derek Kedziora
+email: "derekkedziora@icloud.com"
+description: "Derek Kedziora's blog about the tech world, UX, writing and anything else that's worth being opinated about"
+github: derekkedziora
+highlighter: rouge
+markdown: kramdown
+parse_block_html: false
+url: https://derekkedziora.com
+permalink: blog/:title
+scss:
+    style: compressed
+timezome: Europe/Kyiv
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      blogpost: true
+
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+  -    
+    scope:
+      path: ""
+      type: "english-guides"
+    values:
+      layout: "page"
+      no-index: true
+
+collections:
+  pages:
+    output: true
+
+  english-guides:
+    output: true
+    permalink: english/:title
+
+plugins:
+  - jekyll-feed

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <script>
+        const theme = localStorage.getItem('theme');
+        if (theme === "dark") {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+    <meta charset="UTF-8">
+    <link id='CSS' rel='stylesheet' type='text/css' href='/css/main.css'><link id='CSS' rel='stylesheet' type='text/css' href='/css/code.css'><title>Centered Text Is Lazy</title>
+    <meta name="description" content="Long stretches of centered text is hard to read. Center divs rather than text to get a centered look that's much easier to read.">
+    <meta name="author" content="Derek Kedziora"><meta property="article:published_time" content="2018-10-14"><link rel="canonical" href="http://localhost:4000/blog/centered-text">
+    <link rel="shortcut icon" href="/static/derek.png">
+    <link rel="apple-touch-icon" href="/static/derek.png"> 
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Centered Text Is Lazy"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://localhost:4000/blog/centered-text"/>
+    <meta property="og:image" content="https://derekkedziora.com/static/derek.png"/>
+    <meta property="og:site_name" content="Derek Kedziora's Blog">
+    <meta property="og:description" content="Long stretches of centered text is hard to read. Center divs rather than text to get a centered look that's much easier to read.">
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Centered Text Is Lazy"/>
+    <meta name="twitter:description" content="Long stretches of centered text is hard to read. Center divs rather than text to get a centered look that's much easier to read."/>
+    <meta name="twitter:image" content="https://derekkedziora.com/static/derek.png"/></head>
+<body>
+  <div class="mode-switcher">
+    <a href="#" id="theme-toggle" onclick="modeSwitcher()"></a>
+  </div>
+  <article>
+    <header>
+      <h1>Centered Text Is Lazy</h1>
+        <div class="sub-title-menu"><a href="/" rel="author" title="Derek Kedziora">Derek Kediora</a>
+          <time>14 October 2018</time>
+        </div>
+    </header>
+      <p>Websites with long stretches of center aligned text are everywhere, even big enterprises are doing it. Presumably, these companies spend thousands of dollars on design, yet they still end up with pages that are hard to read. What gives?</p>
+
+<p>The solution is simple: don’t use <code class="highlighter-rouge">text-align: center;</code> unless there’s a compelling reason or you text is a single line. You’d be better off centering block elements and keeping everything left aligned within that element. You still get text that looks tidy and centered, but you keep an easy-to-read left alignment.</p>
+
+<h2 id="alignment-helps-readers">Alignment helps readers</h2>
+
+<p>Having a constant left alignment makes text easier and faster to read since your eye doesn’t have to dart all over the page looking for the next line. For most of us, this is merely annoying; for dyslexic readers it makes a text unreadable.</p>
+
+<p>Take a look at the preceding paragraph in center alignment. This is harder to read and the jagged left edge makes the page look cluttered.</p>
+
+<div style="text-align:center;"><img src="/static/posts/2018-10-14/centered.png" alt="Center aligned text" /></div>
+
+<p>Not all centered text is inherently bad. Done properly, a centered title can look striking. If you’re going to center a title that has a tagline and a paragraph under it, you have to get creative.</p>
+
+<h2 id="centering-titles-with-a-clean-left-edge">Centering titles with a clean left edge</h2>
+
+<p>An underused trick to get both a centered title and a left alignment is to use this CSS:</p>
+
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="nl">max-width</span><span class="p">:</span> <span class="o">-</span><span class="n">moz-fit-content</span><span class="p">;</span>
+<span class="nl">max-width</span><span class="p">:</span> <span class="o">-</span><span class="n">webkit-fit-content</span><span class="p">;</span></code></pre></figure>
+
+<p>Set the <code class="highlighter-rouge">h1</code> to <code class="highlighter-rouge">text-align: center;</code> and the following <code class="highlighter-rouge">p</code> to <code class="highlighter-rouge">text-align: left;</code> You’ll get something that looks centered yet still has a clean left edge.</p>
+
+<p>Another approach is to create a <code class="highlighter-rouge">div</code> with a fixed width, use <code class="highlighter-rouge">text-align: left;</code> and then center the div with <code class="highlighter-rouge">margin: 0 auto;</code> These texts still look centered but are easier to read.</p>
+
+<h2 id="sites-that-get-it-right">Sites that get it right</h2>
+
+<p>Bank of America nails it with a centered image over left aligned text:</p>
+
+<p><img src="/static/posts/2018-10-14/bofa.png" alt="Screenshot of Bank of America's website" /></p>
+
+<p>GitHub moves even the image over to the left:</p>
+
+<p><img src="/static/posts/2018-10-14/github1.png" alt="Screenshot of GitHub's website" /></p>
+
+<p>Microsoft uses images that are the same width as the text:</p>
+
+<p><img src="/static/posts/2018-10-14/microsoft.png" alt="Screenshot of Microsofts's website" /></p>
+
+<h2 id="sites-with-too-much-centering">Sites with too much centering</h2>
+
+<p>Trello’s a hot mess:</p>
+
+<p><img src="/static/posts/2018-10-14/trello-a.png" alt="Screenshot of Trello's website" /></p>
+
+<p>That’s four separate alignments for text that is a single unit.</p>
+
+<p>It’s an easy fix, though. Decrease the width of the <code class="highlighter-rouge">div</code>, align everything to the left and then put the <code class="highlighter-rouge">div</code> anywhere on the page:</p>
+
+<p><img src="/static/posts/2018-10-14/trello-b.png" alt="Trello's website with text left aligned" /></p>
+
+<p>GitHub uses some centered text:</p>
+
+<p><img src="/static/posts/2018-10-14/github2-a.png" alt="Screenshot of GitHub's website" /></p>
+
+<p>Using the same tweaks of narrowing the <code class="highlighter-rouge">div</code> and aligning everything to the left, you can get a much more readable design that still looks centered:</p>
+
+<p><img src="/static/posts/2018-10-14/github2-b.png" alt="Github's website with text left aligned" /></p>
+
+<p>AWS has long content along with too much spacing between related headings and paragraphs:</p>
+
+<p><img src="/static/posts/2018-10-14/aws-a.png" alt="Screenshot of AWS's website" /></p>
+
+<p>Tighten up the margins and align to the left:</p>
+
+<p><img src="/static/posts/2018-10-14/aws-b.png" alt="Screenshot of AWS's website" /></p>
+
+<h2 id="apple-is-in-a-class-of-its-own">Apple is in a class of its own</h2>
+
+<p>Of the major tech companies, Apple takes the prize for hard to read copy.</p>
+
+<p><img src="/static/posts/2018-10-14/apple-a.png" alt="Screenshot of Apple's website" /></p>
+
+<p>Even changing the alignment, font size and margins doesn’t do that much to improve the readability:</p>
+
+<p><img src="/static/posts/2018-10-14/apple-b.png" alt="Apple's website with text left aligned" /></p>
+
+<p>The real problem is content. Maxim Ilyakhov’s point that <a href="http://deathbypassivevoice.com/all/not-only-text/">Apple has terrible copy</a> is relevant, and he’s also right that it doesn’t matter. If you have a great product, you can get away with a poorly designed website and awful content.</p>
+
+<p>Strangely enough, some companies don’t want you to read their copy. By the time you’re on Apple’s website, you’ve probably already made up your mind to buy an iPhone. Apple’s copy isn’t driving conversions.</p>
+
+<p>Counterintuitively, good copy and legible typography can be distracting. You can’t just leave a page empty, so the alternative is to drop in some filler text that’s never meant to be read. I can see this for Apple or AWS, but it’s a questionable practice for small businesses that end up with centered copy because of some bootstrap template.</p>
+
+<h2 id="design-and-content-cant-be-separated">Design and content can’t be separated</h2>
+
+<p>I’ve heard the argument that HTML shouldn’t be presentational to mean that content writers and designers shouldn’t work together. That’s absurd. The technical reasons to keep HTML and CSS separate have nothing to do with content and design influencing each other.</p>
+
+<p>Part of the problem with the example from AWS and Apple is that the copy is too long. The taglines morphed into body length paragraphs. The designers should have rejected the copy and used copy that was more designable.</p>
+
+<p>At bigger companies the standard workflow for making a landing page goes something like this: the content writer comes up with the text without ever seeing the design, the designer only uses <em>lorem ipsum</em> without ever reading the text and whoever does the markup talks to neither the designer nor copywriter. A more sane approach would be to sit the three down together, go through personas and users stories, discuss a common approach and then find copy that works for the design. I’ve yet to see this in practice. Content and design are usually separate departments with competing project managers.</p>
+
+<h2 id="the-web-typographer">The web typographer</h2>
+
+<p>Typography usually gets shunted off to designers. Expecting every designer to also be a typographer is akin to expecting me to write poetry simply because I’m a copywriter.</p>
+
+<p>Most copywriters and designers can benefit from a few hours of going through typography fundamentals. <a href="https://betterwebtype.com/">Better Web Typography</a> and <a href="https://practicaltypography.com">Practical Typography</a> are good places to start. A few small improvements to typography can really improve the appearance and readability of a site.</p>
+
+
+  </article><footer>
+Derek Kedziora<br> 
+<a href="/blog">Blog</a>, <a href="/about" title="About">About</a>, <a href="/portfolio" title="Portfolio">Portfolio</a><br>
+New Blog Posts: <a href="/feed.xml" title="RSS">RSS</a>, <a href="https://t.me/@derekblog" title="Telegram">Telegram</a><br>
+derekkedziora@icloud.com<br>
+</footer> <script src="/assets/scripts/mode-switcher.js"></script>
+</body>
+</html>
+

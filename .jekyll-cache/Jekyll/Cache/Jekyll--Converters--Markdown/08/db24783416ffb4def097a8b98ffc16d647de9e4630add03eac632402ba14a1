@@ -1,0 +1,28 @@
+I"+<p>If you don’t use a plugin, creating a page that automatically sorts your blog posts by tag on Jekyll is trickier than it ought to be. I wanted a page that had a list of all tags for the site at the top. Each tag would then be a link to a section further down the page that had a list of all posts with that tag.</p>
+
+<p>Here’s how to do it:</p>
+
+<h2 id="make-an-array-with-all-of-your-tags">Make an array with all of your tags</h2>
+
+<p>Creating an array in liquid isn’t elegant, but it’s possible:</p>
+
+<h2 id="generate-the-list-of-tags">Generate the list of tags</h2>
+
+<p>Next, make the list of tags for the top of the page that link to the list of posts with that tag:</p>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid"></code></pre></figure>
+
+<p>I cleaned up the display of the tags by getting rid of hyphens and adding no wrap so that a single tag wouldn’t end up on two lines.</p>
+
+<h2 id="generate-a-list-of-posts-for-each-tag">Generate a list of posts for each tag</h2>
+
+<p>The last step is creating a list of posts for each tag and making it possible to navigate to each tag from the top of the page:</p>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid"></code></pre></figure>
+
+<p>The element id will match the tag from the list at the top of the page. You can fiddle with the display options, but I prefer a plain unsorted list.</p>
+
+<h2 id="voila">Voila</h2>
+
+<p>Copy, paste and customize this code to get a tag page for your Jekyll blog. Here’s <a href="/blog/tags">my tag page</a>.</p>
+:ET

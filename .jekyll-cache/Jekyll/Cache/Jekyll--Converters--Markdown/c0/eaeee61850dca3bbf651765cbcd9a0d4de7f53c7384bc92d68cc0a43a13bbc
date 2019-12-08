@@ -1,0 +1,25 @@
+I"&<nav class="sub-title-menu">
+<a href="/" title="Home">Home</a>
+<a href="/" title="Blog">Blog</a>
+</nav>
+
+<p>My first major UX writing project was cleaning up PDFfiller’s main user interface. I was part of the team that took the product from the look and feel of an early 2000s website to a more modern user experience.</p>
+
+<p>The original version was entirely in the style of “Open Document(s)”, which I rewrote as “Open”.</p>
+
+<p><a href="/static/PDFfiller/dashboard.png" title="PDFfiller Dashboard"><img src="/static/PDFfiller/dashboard.png" alt="PDFfiller Dashboard" title="PDFfiller Dashboard" /></a></p>
+
+<p><a href="/static/PDFfiller/mybox.png" title="PDFfiller Mybox"><img src="/static/PDFfiller/mybox.png" alt="PDFfiller Mybox" title="PDFfiller Mybox" /></a></p>
+
+<p>I also wrote the text for individual features:</p>
+
+<p><a href="/static/PDFfiller/linktofill.png" title="PDFfiller Link2Fill"><img src="/static/PDFfiller/linktofill.png" alt="PDFfiller LinkToFill" title="PDFfiller LinkToFill" /></a></p>
+
+<p>I’d rate my text as a partial success. It was a dramatic improvement over the previous version but still fell short in key areas. Management was of the opinion that UX text should be a filler to make the product look better—the more words, the better! This led to compromises such “Just so you know, envelope names can’t be longer than 100 characters.”</p>
+
+<p>On the plus side, these are the key lessons I took away from this project:</p>
+<ul>
+  <li>Content and design need to work together from day one to solve UX issues.</li>
+</ul>
+
+:ET

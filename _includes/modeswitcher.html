@@ -1,19 +1,13 @@
-<script>
-var theFuck = getComputedStyle(document.documentElement).getPropertyValue('content');	
+<script> 
 
-if (theme === "dark") {
-	document.getElementById("theme-toggle").innerHTML = "Light Mode";
-} else if (theme === "light") {
-	document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-} else if (theFuck === "dark") {
-	document.documentElement.setAttribute('data-theme', 'dark');
-	window.localStorage.setItem('theme', 'dark');
-	document.getElementById("theme-toggle").innerHTML = "Light Mode";
-} else {
-	document.documentElement.setAttribute('data-theme', 'light');
-	window.localStorage.setItem('theme', 'light');
-	document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-}
+	if window.matchMedia( "(prefers-color-scheme: dark)" ).matches {
+		document.getElementById("theme-toggle").innerHTML = "Light Mode";
+		document.documentElement.setAttribute('data-theme', 'dark');
+	} else {
+		document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+		document.documentElement.setAttribute('data-theme', 'light');
+	}
+
 
 function modeSwitcher() {
 	const currentMode = document.documentElement.getAttribute('data-theme');
@@ -27,5 +21,7 @@ function modeSwitcher() {
 		document.getElementById("theme-toggle").innerHTML = "Light Mode";
 	}
 }
+
+
 
 </script>

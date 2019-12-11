@@ -35,8 +35,10 @@ function prefersColorSchemeListener(systemPrefersColorScheme) {
   		} else {
     	document.getElementById("theme-toggle").innerHTML = "Dark Mode";
   		}
+  	} else if ((theme === "dark" && (systemPrefersColorScheme.matches)) {
+  		document.getElementById("theme-toggle").innerHTML = "Light Mode";
+
   	}
-}
 
 let systemPrefersColorScheme = window.matchMedia("(prefers-color-scheme: dark)")
 prefersColorSchemeListener(systemPrefersColorScheme); 

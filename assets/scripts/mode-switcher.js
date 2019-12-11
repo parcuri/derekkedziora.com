@@ -32,7 +32,7 @@ function modeSwitcher() {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		sessionStorage.setItem('theme', 'dark');
 		document.getElementById("theme-toggle").innerHTML = "Light Mode";
-	} else if (currentMode === null && systemDarkThemeSet) {
+	} else if (currentMode === null && systemDarkThemeSet === true) {
 		document.documentElement.setAttribute('data-theme', 'light');
 		sessionStorage.setItem('theme', 'light');
 		document.getElementById("theme-toggle").innerHTML = "Dark Mode";
@@ -46,11 +46,13 @@ function modeSwitcher() {
 function prefersColorSchemeListener(systemPrefersColorScheme) {
   if (systemPrefersColorScheme.matches) {
     document.getElementById("theme-toggle").innerHTML = "Light Mode";
+    document.documentElement.setAttribute('data-theme', 'dark');
   } else {
     document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+    document.documentElement.setAttribute('data-theme', 'light');  
   }
 }
 
 let systemPrefersColorScheme = window.matchMedia("(prefers-color-scheme: dark)")
-prefersColorSchemeListener(systemPrefersColorScheme) // Call listener function at run time
-systemPrefersColorScheme.addListener(prefersColorSchemeListener) // Attach listener function on state changes
+prefersColorSchemeListener(systemPrefersColorScheme); 
+systemPrefersColorScheme.addListener(prefersColorSchemeListener); 

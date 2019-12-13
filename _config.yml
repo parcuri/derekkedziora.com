@@ -11,6 +11,7 @@ permalink: blog/:title
 scss:
     style: compressed
 timezome: Europe/Kyiv
+show_drafts: true
 defaults:
   -
     scope:

@@ -17,9 +17,9 @@ Before I used local storage to permanently save someone's preferences. This has 
 
 Another positive change is more and more themes for major site generators already have a dark mode built into them. If you aren't using or a theme or built your own, read on. 
 
-<aside markdown=1> 
-### A Caveat
-This is more of a guided heuristic that assumes some knowledge of CSS. You can copy and paste the javascript, but you still need to manually set colors in your CSS.
+<aside> 
+<h3>A Caveat</h3>
+<p>This is more of a guided heuristic that assumes some knowledge of CSS. You can copy and paste the javascript, but you still need to manually set colors in your CSS.</p>
 </aside>
 
 ## Step one: CSS variables everywhere

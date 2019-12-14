@@ -1,11 +1,14 @@
-# drafts folder 
-_drafts/ 
+# drafts folder
+_drafts/
 
 # Mac system files
-.DS_Store, */DS_Store 
+.DS_Store
+assets/.DS_Store
+static/.DS_Store
+_includes/.DS_Store
 
-# generated site folder 
-_site/ 
+# generated site folder
+_site/
 
-# jekyll cahce 
+# jekyll cahce
 .jekyll-cache/

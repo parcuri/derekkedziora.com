@@ -14,7 +14,7 @@ Here's how to do it:
 Creating an array in liquid isn't elegant, but it's possible:
 
 
-{% highlight liquid %}
+{% highlight liquid %}{% raw %}
 {% for tag in site.tags %}
   {% assign placeHolderTag = tag | first %}
   {% assign listOfTags = listOfTags | append: placeHolderTag %}
@@ -22,17 +22,17 @@ Creating an array in liquid isn't elegant, but it's possible:
 {% endfor %}
 
 {% assign listOfTags = listOfTags | split: ',' | sort_natural %}
-{% endhighlight %}
+{% endraw %}{% endhighlight %}
 
 ## Generate the list of tags
 
 Next, make the list of tags for the top of the page that link to the list of posts with that tag:
 
-{% highlight liquid %}
+{% highlight liquid %}{% raw %}
 {% for listOfTag in listOfTags %}
   <span class='no-wrap'><a class='no-wrap' href="#{{listOfTag}}">
   {{listOfTag | replace: "-", " "}}</a> |</span>
-{% endfor %}
+{% endfor %}{% endraw %}
 {% endhighlight %}
 
 I cleaned up the display of the tags by getting rid of hyphens and adding no wrap so that a single tag wouldn't end up on two lines.
@@ -41,7 +41,7 @@ I cleaned up the display of the tags by getting rid of hyphens and adding no wra
 
 The last step is creating a list of posts for each tag and making it possible to navigate to each tag from the top of the page:
 
-{% highlight liquid %}
+{% highlight liquid %}{% raw %}
 {% for listOfTag in listOfTags %}
 <h3 id='{{listOfTag}}'>{{listOfTag | replace: "-", " "}}</h3>
   <ul style="list-style-type: none">
@@ -51,7 +51,7 @@ The last step is creating a list of posts for each tag and making it possible to
       {% endif %}
     {% endfor %}
   </ul>
-{% endfor %}
+{% endfor %}{% endraw %}
 {% endhighlight %}
 
 The element id will match the tag from the list at the top of the page. You can fiddle with the display options, but I prefer a plain unsorted list.

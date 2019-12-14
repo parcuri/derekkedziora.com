@@ -1,9 +1,7 @@
 ---
 title: Blog Tags
 description: "All of my blog posts sorted by tag"
-blogNav: true
-layout: page
-tagIndex: true
+blog-index: true
 permalink: /blog/tags
 ---
 
@@ -18,13 +16,13 @@ permalink: /blog/tags
 {% assign tagCounter = 0 %}
 {% for listOfTag in listOfTags %}
 {% endfor %}
-<section class="tag-lists">
-<p class="tag-nav">
+
+<ul class="tag-nav">
 {% for listOfTag in listOfTags %}
-<span><a href="#{{listOfTag}}">{{ listOfTag | replace: "-", "&nbsp;" }}</a></span>
+<li><a href="#{{listOfTag}}">{{ listOfTag | replace: "-", "&nbsp;" }}</a></li>
 {% endfor %}
-</p>
-</section>
+</ul>
+
 {% for listOfTag in listOfTags %}
 <section id='{{listOfTag}}' class="tag-lists">
 <h2>{{listOfTag | replace: "-", " "}}</h2>
@@ -33,8 +31,7 @@ permalink: /blog/tags
 {% if post.categories contains listOfTag %}
 {% include blog-listing.html %}
 {% endif %}
-{% endfor %}
-</ul>
-<p><a href="#" title="All Tags" class="tag-nav">All Tags »</a></p>
+{% endfor %}</ul>
+<a href="#" title="All Tags" class="internal-nav-tag">All Tags »</a>
 </section>
 {% endfor %}

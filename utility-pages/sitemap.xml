@@ -1,6 +1,6 @@
 ---
-layout: blank
-permalink: sitemap.xml
+layout: none
+permalink: /sitemap.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -21,5 +21,15 @@ permalink: sitemap.xml
   </url>
  {%- endunless -%}
 {% endfor %}
+
+{% for english-guide in site.english-guides %}
+{%- unless page.no-index -%}
+  <url>
+    <loc>{{ site.url }}{{ english-guide.url }}</loc>
+  </url>
+ {%- endunless -%}
+{% endfor %}
+
+
 
 </urlset>

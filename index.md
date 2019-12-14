@@ -1,15 +1,19 @@
 ---
 title: "Derek Kedziora"
 og-type: website
-layout: home
+layout: default
 index: true
-home-link: false
 ---
 
+I'm a content designer and UX writer. 
 
-I'm a language geek, UX writer, bibliophile and recovering English teacher.
+Check out my [blog](/blog "Blog") for a mix of tech, books, reflections and philosophy. 
 
-I blog about my skepticism of the [tech world](/blog/tags#tech "Tech") I find myself in, [meditation](/blog/tags#meditation), [books](/blog/tags#books) and more. 
+Need help with English? After nearly a decade of teaching English as foreign language, I'm digitizing my old lessons as [English Guides](/english "English Guides").
+
+<!--
+My latest project is building a new site devoted to gathering online meditation resources. It's far from finished, but take a peak at [the Meditator's Craft](https://meditatorscraft.com "The Meditator's Craft"). 
+-->
 
 ## Latest blog posts
 {% assign i = 0 %}

@@ -16,25 +16,22 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
     values:
-      layout: "post"
-      blogpost: true
+      layout: "default"
 
   -
     scope:
       path: ""
-      type: "pages"
+      type: "posts"
     values:
-      layout: "page"
-
+      blogpost: true
+      
   -    
     scope:
       path: ""
       type: "english-guides"
     values:
-      layout: "page"
-      no-index: true
+      english-guide: true
 
 collections:
   pages:
@@ -46,3 +43,7 @@ collections:
 
 plugins:
   - jekyll-feed
+
+feed:
+  collections:
+    - english-guides

@@ -1,21 +1,24 @@
 ---
-layout: post 
+layout: none 
 title: ""
 customTitle: true
 description: This page automatically directs to a (pseudo)random blog post
 permalink: /blog/random
 ---
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="robots" content="noindex" />
+  <link id='CSS' rel='stylesheet' type='text/css' href='/css/main.css'>
+</head>
+
 <script>
 let theme = sessionStorage.getItem('theme');
 if (theme === "dark") {
   document.documentElement.setAttribute('data-theme', 'dark');
-  sessionStorage.setItem('theme', 'dark');
-  document.getElementById("theme-toggle").innerHTML = "Light Mode";
 } else if (theme === "light") {
   document.documentElement.setAttribute('data-theme', 'light');
-  sessionStorage.setItem('theme', 'light');
-  document.getElementById("theme-toggle").innerHTML = "Dark Mode";
 }
 </script>
 

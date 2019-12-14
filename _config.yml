@@ -8,8 +8,6 @@ markdown: kramdown
 parse_block_html: false
 url: https://derekkedziora.com
 permalink: blog/:title
-scss:
-    style: compressed
 timezome: Europe/Kyiv
 show_drafts: true
 defaults:

@@ -1,11 +1,17 @@
+# derekkedziora.com
+
 This is my personal site that contains my blog plus some of my notes from almost a decade of teaching English. 
 
-My original content in this repo is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. You're free to share, use and modify with attribution. A backlink is appreciated. 
-
-I wave any right to my original code and release it under under the Creative Commons Zero license. You're free to share, use and modify it. Attribution and backlink are appreciated, though. 
+## Useful Code to Share 
 
 For other Jekyll users the following bits of code are the most useful: 
 
 - [Adding Dark Mode](https://derekkedziora.com/blog/dark-mode-revisited)
 - [Creating a Random Post Link](https://derekkedziora.com/blog/Getting-Random-Post-in-Jekyll)
 - [Creating a Tag Page](https://derekkedziora.com/blog/tag-page-jekyll)
+
+## Creative Commons 
+
+My original content in this repo is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. You're free to share, use and modify with attribution. A backlink is appreciated. 
+
+I wave any right to my original code and release it under under the Creative Commons Zero license. You're free to share, use and modify it. Attribution and backlink are appreciated, though. 

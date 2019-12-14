@@ -1,7 +1,7 @@
 ---
 ---
 
-$body-typeface: "Iowan Old Style", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+$body-typeface: "Gill Sans", "Gill Sans MT", "Gill Sans Nova", Lato, sans-serif;
 $text-width: 650px;
 
 html, html[data-theme="light"] {
@@ -65,8 +65,8 @@ html[data-theme="dark"] {
   } 
 }
 
-:root {
-  height: 100vh;
+html, html[data-theme="dark"], html[data-theme="light"] {
+  height: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -84,9 +84,9 @@ body {
   background-color: var(--main-background-color);
   color: var(--main-text-color);
   font-family: $body-typeface;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-feature-settings: "kern" on;
-  height: 100vh;
+  height: 100%;
   margin: 0;
   text-rendering: optimizeLegibility;
   display: flex;
@@ -250,8 +250,8 @@ dd {
 
 aside {
   background-color: var(--box-background-color);
-  border-left: 2px solid var(--light-border-color);
-  border-right: 2px solid var(--light-border-color);
+  border-left: 3px solid var(--light-border-color);
+  border-right: 3px solid var(--light-border-color);
   padding: .5em;
   h3 {
     font-size: 1.1em;
@@ -367,11 +367,6 @@ aside {
   }
 }
 
-
-.listing-title:first-of-type {
-  //margin-top: 2em;
-}
-
 .listing-title {
   text-align: left;
   font-size: 1em;
@@ -458,11 +453,6 @@ header + p {
   text-transform: uppercase;
 }
 
-/*.theme-toggle-button:hover {
-  color: var(--link-color);
-  text-decoration: underline;
-}*/
-
 strong, h1, h2 {
   color: var(--bold-color);
 }
@@ -472,8 +462,6 @@ strong, h1, h2 {
      margin: 0;
   }
 }
-
-
 
 @media screen and(max-width: 700px) {
   

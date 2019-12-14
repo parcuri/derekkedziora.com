@@ -2,7 +2,7 @@
 _drafts/ 
 
 # Mac system files
-.DS_Store
+.DS_Store, */DS_Store 
 
 # generated site folder 
 _site/ 

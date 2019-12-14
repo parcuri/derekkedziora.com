@@ -2,6 +2,8 @@
 
 This is my personal site that contains my blog plus some of my notes from almost a decade of teaching English. 
 
+I use Jekyll to build the site and host it via GitHub pages. I started with a blank them and have hand-coded it over the years. 
+
 ## Useful Code to Share 
 
 For other Jekyll users the following bits of code are the most useful: 

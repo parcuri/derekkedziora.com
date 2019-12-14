@@ -12,6 +12,10 @@
 	{%- unless page.url == "/blog" -%}<a href="/blog" title="Blog">Blog</a>&emsp;{%- endunless -%}
 	{%- unless page.url == "/blog/tags" -%}<a href="/blog/tags" title="tags">Tags</a>&emsp;{%- endunless -%}
 	<a href="/blog/random" title="Random Post">Random Post</a>
+	{%- elsif page.english-index -%}
+	<a href="/" title="Derek Kedziora">Home</a>&emsp;
+	<a href="/about" title="About">About</a>&emsp;
+	<a href="/blog" title="Blog">Blog</a>&emsp;
 	{%- elsif page.blogpost -%}
 	<a href="/" rel="author" title="Derek Kedziora">Derek Kediora</a>&emsp;
 	<time>{{ page.date | date: "%d %B %Y" }}</time>

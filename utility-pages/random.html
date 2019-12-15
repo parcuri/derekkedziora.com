@@ -1,17 +1,10 @@
 ---
-layout: none 
 title: ""
 customTitle: true
 description: This page automatically directs to a (pseudo)random blog post
 permalink: /blog/random
+no-index: true 
 ---
-
-<!DOCTYPE html>
-<html>
-<head>
-  <meta name="robots" content="noindex" />
-  <link rel='stylesheet' type='text/css' href='/assets/css/main.css'>
-</head>
 
 <script>
 let theme = sessionStorage.getItem('theme');
@@ -21,7 +14,6 @@ if (theme === "dark") {
   document.documentElement.setAttribute('data-theme', 'light');
 }
 </script>
-
 
 {%- assign i = 0 -%}
 {%- for post in site.posts -%}

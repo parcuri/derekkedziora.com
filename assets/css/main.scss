@@ -129,8 +129,9 @@ footer {
 }
 
 .next-link {
-  width: 50%;
+  margin-left: auto;
   text-align: right; 
+  width: 50%;
 }
 
 .index-links {
@@ -283,6 +284,7 @@ aside {
   padding: 0;
   li {
     margin: 1.5em 0 0 0;
+    padding: 0;
   }
 }
 

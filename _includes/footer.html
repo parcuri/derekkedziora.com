@@ -6,11 +6,14 @@
 {%- unless page.next == null -%}
 <a href="{{ page.next.url }}" title="{{ page.next.title }}" class="next-link">{{ page.next.title }}&nbsp;→</a>
 {%- endunless -%}
-<div class="index-links">
-{%- if page.blogpost -%}<a href="/blog" title="Blog">Blog</a>{%- elsif page.english-guide -%}<a href="/english" title="English Guides">English</a>{%- endif -%}&nbsp;||&nbsp;<a href="/" title="Home">Home</a> 
-</div>
 </div>
 {%- endif -%}
+<div class="index-links">
+<a href="/" title="Home">Home</a>&emsp;
+<a href="/about" title="About">About</a>&emsp;
+<a href="/blog" title="Blog">Blog</a>&emsp;
+<a href="/english" title="English Guides">English Guides</a>
+</div>
 <div class="contact-info">
  <a href="/feed.xml" title="RSS">RSS</a> || <a href="https://twitter.com/derekkedziora" title="Twitter">Twitter</a> || <a href="https://t.me/@derekblog" title="Telegram">Telegram</a><br>
 derekkedziora@icloud.com

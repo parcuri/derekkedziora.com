@@ -120,30 +120,37 @@ footer {
 }
 
 .bottom-nav {
+  border-top: 1px solid var(--light-border-color); 
   display: flex;
   flex-wrap: wrap;
 }
 
 .previous-link {
-  width: 50%; 
+  border-right: 1px solid var(--light-border-color);
+  padding: 1em 5% 1em 0;
+  width: 44%; 
 }
 
 .next-link {
-  margin-left: auto;
+  margin: 0 0 0 auto;
+  padding: 1em 0 1em 5%;
   text-align: right; 
-  width: 50%;
+  width: 44%;
 }
 
 .index-links {
-  margin-top: 1.5em;
+  border-top: 1px solid var(--light-border-color);
+  font-size: .8em;
+  letter-spacing: .05em;
+  padding: 1em 0;
   text-align: center;
+  text-transform: uppercase;
   width: 100%;
 }
 
 .contact-info {
-  border-top: 2px solid hsl(2, 40%, 40%);
-  margin-top: 2em;
-  padding: 1em 0 2em 0;
+  padding: 1em 0 3em 0;
+  border-top: 1px solid var(--light-border-color);
 }
 
 h1, h2, h3 {
@@ -350,7 +357,7 @@ aside {
   margin: .8em 0 0 0;
   a, p, time {
     color: var(--light-text-color);
-    font-size: .6em;
+    font-size: .7em;
     line-height: 1;
     letter-spacing: .05em;
     margin: 0 5% 0 0;

@@ -7,10 +7,10 @@ permalink: /bday
 ![](/static/bday/2010.jpeg)
 <p class="caption">2010</p>
 
-![](/static/bday/2011.jpg)
+![](/static/bday/2011.JPG)
 <p class="caption">2011</p>
 
-![](/static/bday/2013.jpg)
+![](/static/bday/2013.JPG)
 <p class="caption">2013</p>
 
 ![](/static/bday/2015.jpg)

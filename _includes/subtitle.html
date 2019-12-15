@@ -18,7 +18,7 @@
 	<a href="/blog" title="Blog">Blog</a>&emsp;
 	{%- elsif page.blogpost -%}
 	<a href="/" rel="author" title="Derek Kedziora">Derek Kediora</a>&emsp;
-	<time>{{ page.date | date: "%d %B %Y" }}</time>
+	<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d %B %Y" }}</time>
 	{%- elsif page.english-guide -%}
 	<a href="/" title="Derek Kedziora">Home</a>&emsp;
 	<a href="/english" title="English Guides">All English Guides</a>

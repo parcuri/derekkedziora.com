@@ -21,3 +21,6 @@ permalink: /bday
 
 ![](/static/bday/2018.jpg)
 <p class="caption">2018</p>
+
+![](/static/bday/2019.jpg)
+<p class="caption">2019</p>

@@ -1,7 +1,7 @@
 ---
 title: K--v is the Capital of Ukraine
 description: “The controversy surrounding the English spelling of Ukraine’s capital is artificial. Both ways are fine. Let’s stop with patriotic virtue signaling.”   
-tags: 
+categories: 
  - politics
  - language
 date: 2019-12-25 17:45:00

@@ -4,9 +4,7 @@ description: “More frustrating than the glaring omission of Tel Aviv from a fi
 date: 2019-12-28 21:30:00
 --- 
 
-Tel Aviv’s a cosmopolitan city at heart, with a thriving tech scene and people from every corner of the globe. It’s also a city of refugees. As Tel Aviv grew in the 1930s with European Jews facing an impossible future poured in. Almost overnight, German-speaking Jews went from being at the center of Weimar Germany’s cultural scene to facing complete eradication. Thus any cultural history of 1920s Germany is very much a Jewish story that picks up in Tel Aviv.  
-
-The German Jewish refugees brought Bauhaus architecture with them, and no other city in the world bears the mark of Bauhaus as much as Tel Aviv does. Four thousand Bauhaus buildings still grace central Tel Aviv’s [White City](https://en.wikipedia.org/wiki/White_City_(Tel_Aviv)).
+No other city in the world bears the mark of Bauhaus as much as Tel Aviv does. Four thousand Bauhaus buildings still grace central Tel Aviv’s [White City](https://en.wikipedia.org/wiki/White_City_(Tel_Aviv)). German-speaking Jews, who were central to Weimar Germany's cultural scene that produced Bauhaus, brought their architecture with them as they fled an impossible future in Europe.
 
 ## 100 Years of Bauhaus* 
 

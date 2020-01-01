@@ -5,15 +5,19 @@ layout: default
 index: true
 ---
 
-I'm a content designer and UX writer. 
+👋 Hey there. I’m Derek Kedziora (pronounced ken-JO-ra). 
 
-Check out my [blog](/blog "Blog") for a mix of tech, books, reflections and philosophy. 
+I'm a content designer / UX writer or whatever the latest buzzword for technical writer is. Although I started out as an English teacher.   
 
-Need help with English? After nearly a decade of teaching English as foreign language, I'm digitizing my old lessons as [English Guides](/english "English Guides").
+I blog about a bunch of different things. My most popular posts  based on search engine hits and emails:  
 
-<!--
-My latest project is building a new site devoted to gathering online meditation resources. It's far from finished, but take a peak at [the Meditator's Craft](https://meditatorscraft.com "The Meditator's Craft"). 
--->
+🌗 Adding [dark mode](/blog/dark-mode-revisited) to a static site and creating a [tag page](/blog/tag-page-jekyll) with Jekyll. 
+
+🧐 Pragmatic tech skepticism: [Data Driven Marketing in a Web of Fake Data](/blog/fake-data) and [Self-Driving Cars Are Corporate FOMO](/blog/glomar-cars).
+
+🧘‍♂️ Meditation retreats: [Ten Days of Meditation at Suan Mokkh](/blog/suan-mokkh-retreat) and [Meditation Retreat at Dipabhāvan](/blog/dipibhavan-retreat).  
+
+🇺🇸 My [English Guides](/english "English Guides") are a leftover lessons from my days as an English teacher. 
 
 ## Latest blog posts
 {% assign i = 0 %}

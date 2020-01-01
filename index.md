@@ -7,9 +7,9 @@ index: true
 
 👋 Hey there. I’m Derek Kedziora (pronounced ken-JO-ra). 
 
-I'm a content designer / UX writer or whatever the latest buzzword for technical writer is. Although I started out as an English teacher.   
+I'm a content designer / UX writer or whatever the latest buzzword for technical writer is.  
 
-I blog about a bunch of different things. My most popular posts  based on search engine hits and emails:  
+## Most popular blog posts  
 
 🌗 Adding [dark mode](/blog/dark-mode-revisited) to a static site and creating a [tag page](/blog/tag-page-jekyll) with Jekyll. 
 

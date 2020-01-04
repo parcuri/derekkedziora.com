@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 ---
 title: "Peak Google: From Utility to Rent Seeking"
 description: "Google and other search engines are decreasingly useful to both advertisers and people searching for info online. This model won’t last forever."

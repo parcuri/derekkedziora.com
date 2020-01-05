@@ -9,7 +9,7 @@ index: true
 
 I'm a content designer / UX writer or whatever the latest buzzword for technical writer is.  
 
-## Most popular blog posts  
+## Popular blog posts  
 
 🌗 Adding [dark mode](/blog/dark-mode-revisited) to a static site and creating a [tag page](/blog/tag-page-jekyll) with Jekyll. 
 

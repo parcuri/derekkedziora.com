@@ -72,7 +72,7 @@ In terms of getting new info, the old is new: RSS, Podcasts and email lists are 
 
 For better or worse, getting onto these mailing lists, feeds and podcasts is where *good* marketers are going. Not AdWords. 
 
-## The paradigm shift in waiting. 
+## The paradigm shift in waiting 
 
 For an industry that considers itself innovative, the tech world is hemmed in by convention and group think. There are signs aplenty that the mantras or scale, more data and more personalization aren’t working.  
 

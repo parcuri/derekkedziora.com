@@ -15,7 +15,7 @@ I'm a content designer / UX writer or whatever the latest buzzword for technical
 
 🧐 Pragmatic tech skepticism: [Data Driven Marketing in a Web of Fake Data](/blog/fake-data) and [Self-Driving Cars Are Corporate FOMO](/blog/glomar-cars).
 
-&#x1F9D8 Meditation retreats: [Ten Days of Meditation at Suan Mokkh](/blog/suan-mokkh-retreat) and [Meditation Retreat at Dipabhāvan](/blog/dipibhavan-retreat).  
+🧘‍♂️ Meditation retreats: [Ten Days of Meditation at Suan Mokkh](/blog/suan-mokkh-retreat) and [Meditation Retreat at Dipabhāvan](/blog/dipibhavan-retreat).  
 
 🇺🇸 My [English Guides](/english "English Guides") are a leftover lessons from my days as an English teacher. 
 

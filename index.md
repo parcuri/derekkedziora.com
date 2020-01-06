@@ -17,7 +17,7 @@ I'm a content designer / UX writer or whatever the latest buzzword for technical
 
 🧘‍♂️ Meditation retreats: [Ten Days of Meditation at Suan Mokkh](/blog/suan-mokkh-retreat) and [Meditation Retreat at Dipabhāvan](/blog/dipibhavan-retreat).  
 
-U+1F1FA My [English Guides](/english "English Guides") are a leftover lessons from my days as an English teacher. 
+🇺🇸 My [English Guides](/english "English Guides") are a leftover lessons from my days as an English teacher. 
 
 ## Latest blog posts
 {% assign i = 0 %}

@@ -7,9 +7,7 @@ permalink: /about
 
 👋 Hey there, I’m Derek. 
 
-![this almost looks like me](/static/derek.jpg)
-
-
+<figure style="float: left;"><img src="/static/derek.jpg" alt="The author at a cafe" title="Derek Kedziora"></figure>
 
 🤓 I work as content designer and UX writer, but I’m a geek at heart. For professional stuff, check out my [CV and portfolio](/portfolio).
 

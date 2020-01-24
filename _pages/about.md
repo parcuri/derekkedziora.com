@@ -7,13 +7,13 @@ permalink: /about
 
 👋 Hey there, I’m Derek. 
 
-<figure style="float: left;"><img src="/static/derek.jpg" alt="The author at a cafe" title="Derek Kedziora"></figure>
+<figure style="float: left; padding-right: 1em;"><img src="/static/derek.jpg" alt="The author at a cafe" title="Derek Kedziora"></figure>
 
-🤓 I work as content designer and UX writer, but I’m a geek at heart. For professional stuff, check out my [CV and portfolio](/portfolio).
+I work as content designer and UX writer, but I’m a geek at heart. For professional stuff, check out my [CV and portfolio](/portfolio).
 
-🇺🇸🇰🇬🇨🇳🇸🇦🇺🇦 I was born in the US, although my English teaching career took me to Kyrgyzstan, China and Saudi Arabia before landing me in Ukraine, where I’ve lived since 2010.
+I was born in the US, although my English teaching career took me to Kyrgyzstan, China and Saudi Arabia before landing me in Ukraine, where I’ve lived since 2010.
 
-🚴‍♂️📚 For fun I take long bike rides around Kyiv, read tons of paper books, tinker around with programming and explore Buddhist philosophy.
+For fun I take long bike rides around Kyiv, read tons of paper books, tinker around with programming and explore Buddhist philosophy.
 
 ## Projects for 2020
 

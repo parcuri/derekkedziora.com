@@ -7,6 +7,10 @@ permalink: /about
 
 👋 Hey there, I’m Derek. 
 
+![this almost looks like me](/static/derek.jpg)
+
+
+
 🤓 I work as content designer and UX writer, but I’m a geek at heart. For professional stuff, check out my [CV and portfolio](/portfolio).
 
 🇺🇸🇰🇬🇨🇳🇸🇦🇺🇦 I was born in the US, although my English teaching career took me to Kyrgyzstan, China and Saudi Arabia before landing me in Ukraine, where I’ve lived since 2010.

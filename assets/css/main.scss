@@ -88,6 +88,7 @@ body {
   font-size: 1.4rem;
   font-feature-settings: "kern" on;
   height: 100%;
+  line-height: 1.4em;
   margin: 0;
   text-rendering: optimizeLegibility;
   display: flex;
@@ -137,6 +138,7 @@ footer {
       display: block;
       font-weight: 700;
       font-size: .8em;
+      line-height: 1;
       letter-spacing: .05em;
       margin: 0 0 .5em 0;
       text-transform: uppercase;
@@ -178,7 +180,7 @@ footer {
 }
 
 .previous-link {
-  border-right: 1px solid var(--light-border-color);
+  //border-right: 1px solid var(--light-border-color);
   padding: 1em 5% 1em 0;
   width: 44%; 
 }
@@ -201,8 +203,9 @@ footer {
 }
 
 .contact-info {
-  padding: 1em 0 3em 0;
+  padding: 1.5em 0 3em 0;
   border-top: 1px solid var(--light-border-color);
+  text-align: center;
 }
 
 h1, h2, h3 {
@@ -212,14 +215,14 @@ h1, h2, h3 {
 
 h1 {
   //border-bottom: 2px solid hsl(2, 40%, 40%);
-  font-size: 1.75em;
+  font-size: 1.5em;
   //font-weight: 400;
   margin: 0;
   //padding-bottom: .4em;
 }
 
 h2 {
-  font-size: 1.25em;
+  font-size: 1.2em;
   //letter-spacing: .05em;
   //text-transform: uppercase;
 }
@@ -238,7 +241,6 @@ h2 + *, h3 + *  {
 
 a, li, p {
   hyphens: none;
-  line-height: 1.4em;
 }
 
 a {

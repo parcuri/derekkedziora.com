@@ -102,7 +102,7 @@ main {
 }
 
 article {
-  margin: 2em 0 4em 0;
+  margin: 3em 0 4em 0;
   max-width: $text-width;
   padding-bottom: 2em;
   width: 100%;
@@ -124,14 +124,17 @@ footer {
 
 
 .top-of-page {
-  background-color: var(--box-background-color);
-  border-bottom: 1px solid var(--light-border-color);
-  margin-bottom: 1.5em;
-  padding: 1em 0 1em 0;
+  //background-color: var(--box-background-color);
+  //border-bottom: 1px solid var(--light-border-color);
+  //margin-bottom: 1.5em;
+  //padding: 2em 0 2em 0;
+  margin: 1.5em 0 0 0;
   width: 100%;
   .top-of-page-content {
+    border-bottom: 1px solid var(--light-border-color);
     max-width: $text-width;
     margin: 0 auto;
+    padding-bottom: .75em;
     h1, .name {
       border: none;
       color: var(--main-text-color);
@@ -274,8 +277,8 @@ ol li::marker {
 }
 
 blockquote {
-  border-left: 2px solid var(--underline-color);
-  padding: 1em 1em 1em 2em;
+  //border-left: 2px solid var(--underline-color);
+  padding: 1em 1.5em 1em 1.5em;
   p {
     font-size: .9em;
     hyphens: auto;
@@ -344,7 +347,7 @@ aside {
   list-style-type: none;
   padding: 0;
   li {
-    margin: 1.5em 0 0 0;
+    margin: 0 0 1.5em 0;
     padding: 0;
   }
 }

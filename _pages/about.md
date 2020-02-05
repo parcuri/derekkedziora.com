@@ -3,6 +3,7 @@ title: About
 description: “Derek Kedziora is a UX Writer and Content Designer, geek, tinkerer and avid reader.”   
 about: true
 permalink: /about
+nav-title: true
 --- 
 
 👋 Hey there, I’m Derek. 

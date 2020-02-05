@@ -1,8 +1,8 @@
 ---
 title: "Derek Kedziora"
 og-type: website
-layout: default
 index: true
+nav-title: true
 ---
 
 👋 Hey there. I’m Derek Kedziora (pronounced ken-JO-ra). 

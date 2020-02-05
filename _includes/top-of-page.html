@@ -1,0 +1,28 @@
+
+<div class="top-of-page-content">
+{%- if page.index -%}
+<h1 class="name">Derek Kedziora</h1><nav>
+{%- else -%}
+<nav>
+<a href="/" rel="author" title="Derek Kedziora" class="name">Derek Kedziora</a>
+{%- endif -%}
+<div class="nav-link">
+{%- if page.about -%}
+<h1>About</h1>
+{%- else -%}
+<a href="/about" title="About">About</a>
+{%- endif -%}
+{%- if page.blog-index -%}
+<h1>Blog</h1>
+{%- else -%}
+<a href="/blog" title="Blog">Blog</a>
+{%- endif -%}
+{%- if page.english-index -%}
+<h1>English Guides</h1>
+{%- else -%}
+<a href="/english" title="English Guides">English Guides</a>
+{%- endif -%}
+<a id="theme-toggle" onclick="modeSwitcher()" role="button"></a>
+</div>
+</nav>
+</div>

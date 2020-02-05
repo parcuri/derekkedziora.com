@@ -2,6 +2,7 @@
 title: English 
 permalink: /english
 english-index: true
+nav-title: true
 ---
 
 Teaching English as a foreign language was my full-time gig until I switched to writing at the end of 2016.  

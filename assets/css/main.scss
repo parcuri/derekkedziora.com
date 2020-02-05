@@ -126,44 +126,44 @@ footer {
   background-color: var(--box-background-color);
   border-bottom: 1px solid var(--light-border-color);
   margin-bottom: 1.5em;
-  padding: .75em 0 .5em 0;
+  padding: 1em 0 1em 0;
   width: 100%;
   .top-of-page-content {
     max-width: $text-width;
     margin: 0 auto;
     h1, .name {
       border: none;
-      color: var(--light-text-color);
+      color: var(--main-text-color);
       display: block;
       font-weight: 700;
-      font-size: .65em;
+      font-size: .8em;
       letter-spacing: .05em;
-      padding: 0 0 .75em 0;
+      margin: 0 0 .5em 0;
       text-transform: uppercase;
     }
     nav {
       margin-top: 0;
     }
     .nav-link {
-      color: var(--light-text-color);
-      font-size: .6em;
+      color: var(--main-text-color);
+      font-size: .65em;
       letter-spacing: .05em;
-      margin-top: 0;
+      margin: 0;
       text-transform: uppercase;
     }
     .nav-link a {
       display: inline-block;
-      color: var(--light-text-color);
+      color: var(--main-text-color);
       margin: 0;
       padding: 0 2.5% 0 0;
     }
     .nav-link h1 {
       text-decoration: line-through;
       display: inline-block;
-      color: var(--light-text-color);
+      color: var(--main-text-color);
       margin: 0;
       padding: 0 2.5% 0 0;
-      font-size: 1em;
+      font-size: inherit;
       font-weight: 400;
       letter-spacing: .05em;
       text-transform: uppercase;

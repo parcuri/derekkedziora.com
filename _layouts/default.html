@@ -10,18 +10,17 @@
 {%- include top-of-page.html -%}
 
 <article>
-  
+
   {%- unless page.nav-title -%}
 		<h1>{{page.title}}</h1>
     	<!--{%- include subtitle.html -%}-->
   {%- endunless -%}
-  
+  {%- if page.blogpost -%}
+    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d %B %Y" }}</time>
+  {%- endif -%}
+
   		{{ content }}
-  
-    {%- if page.blogpost -%}
-      <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%d %B %Y" }}</time>
-    {%- endif -%}
-  
+    
   </article>
     
   <footer>

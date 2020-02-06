@@ -6,6 +6,12 @@ blog-index: true
 permalink: /blog
 nav-title: true
 ---
+
+<div class="top-of-listing">
+<a href="/blog/random" title="Random Post">Random Post</a> || 
+<a href="/blog/tags" title="tags">Tags</a>
+</div>
+
 <ul class="listing">
 {%- for post in site.posts -%}
 {%- unless post.unlisted -%}

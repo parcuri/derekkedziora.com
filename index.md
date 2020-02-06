@@ -5,29 +5,32 @@ index: true
 nav-title: true
 ---
 
-👋 Hey there. I’m Derek Kedziora (pronounced ken-JO-ra). 
+Hey, there! 👋
 
-I'm a content designer / UX writer or whatever the latest buzzword for technical writer is.  
+I’m Derek Kedziora: an American in Kyiv, UX writer, former English teacher and all around geek.
 
-## Popular blog posts  
+## Highlights
 
-🌗 Adding [dark mode](/blog/dark-mode-revisited) to a static site and creating a [tag page](/blog/tag-page-jekyll) with Jekyll. 
+[Data Driven Marketing in a Web of Fake Data](/blog/fake-data) and [Self-Driving Cars Are Corporate FOMO](/blog/glomar-cars) are my most popular stories on Medium. 
 
-🧐 Pragmatic tech skepticism: [Data Driven Marketing in a Web of Fake Data](/blog/fake-data) and [Self-Driving Cars Are Corporate FOMO](/blog/glomar-cars).
+[Dark Mode Revisited](/blog/dark-mode-revisited) gets the most traffic from search engines. 
 
-🧘‍♂️ Meditation retreats: [Ten Days of Meditation at Suan Mokkh](/blog/suan-mokkh-retreat) and [Meditation Retreat at Dipabhāvan](/blog/dipibhavan-retreat).  
+I get the most emails about [Ten Days of Meditation at Suan Mokkh](/blog/suan-mokkh-retreat) and [Meditation Retreat at Dipabhāvan](/blog/dipibhavan-retreat).  
 
-🇺🇸 My [English Guides](/english "English Guides") are a leftover lessons from my days as an English teacher. 
+My real life friends ask me about my [English Guides](/english "English Guides") the most. 
 
 ## Latest blog posts
+<ul class="listing">
 {% assign i = 0 %}
 {% for post in site.posts %}
 {%- unless post.unlisted -%}
 {%- assign i = i | plus: 1 -%}
-[{{post.title}}&nbsp;»]({{post.url}} "{{post.title}}")
-
+{%- include blog-listing.html -%}
 {% endunless %}
 {%- if i == 3 -%}
 {%- break -%}
 {%- endif -%}
 {% endfor %}
+</ul>
+
+[All Posts](/blog)

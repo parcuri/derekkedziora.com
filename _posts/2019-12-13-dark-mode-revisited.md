@@ -99,7 +99,7 @@ We're still using CSS to detect what color scheme is set in the system the prefe
 Next we need a button that will do this for us: 
 
 {% highlight HTML %}
-<a id="theme-toggle" onclick="modeSwitcher()" class="theme-toggle-button"></a>{% endhighlight %}
+<a id="theme-toggle" onclick="modeSwitcher()"></a>{% endhighlight %}
 
 ## The Javascript 
 

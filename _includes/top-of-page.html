@@ -1,30 +1,27 @@
 
-<div class="top-of-page">
+<nav class="top-of-page">
+
+
 {%- if page.index -%}
-<h1 class="name">Derek Kedziora</h1>
+	<h1 class="name">Derek Kedziora</h1>
 {%- else -%}
-<a href="/" rel="author" title="Derek Kedziora" class="name">Derek Kedziora</a>
+	<a href="/" rel="author" title="Derek Kedziora" class="name">Derek Kedziora</a>
 {%- endif -%}
 
-<div class="nav-link">
-<nav>
 {%- if page.about -%}
-<span class="current-page">About</span>
+	<span class="current-page">About</span>
 {%- else -%}
-<a href="/about" title="About">About</a>
+	<a href="/about" title="About">About</a>
 {%- endif -%}
-{%- if page.blog-index -%}
-<span class="current-page">Blog</span>
-{%- else -%}
-<a href="/blog" title="Blog">Blog</a>
-{%- endif -%}
-<!--{%- if page.english-index -%}
-<h1>English Guides</h1>
-{%- else -%}
-<a href="/english" title="English Guides">English Guides</a>
-{%- endif -%}-->
-<a id="theme-toggle" onclick="modeSwitcher()" role="button"></a>
-</nav>
-</div>
 
-</div>
+{%- if page.blog-index -%}
+	<span class="current-page">Blog</span>
+{%- else -%}
+	<a href="/blog" title="Blog">Blog</a>
+{%- endif -%}
+
+<a id="theme-toggle" onclick="modeSwitcher()" role="button"></a>
+
+</nav>
+
+

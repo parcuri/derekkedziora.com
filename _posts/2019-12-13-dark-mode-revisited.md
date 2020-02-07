@@ -7,7 +7,13 @@ syntax: true
 
 Dark mode has gone from an oddity to being fully supported on Safari, Firefox and Chrome. While this is great news (especially if you also get migraines), it also means that my hacked together [dark mode post](/blog/dark-mode "Adding Dark Mode to a Static Site") from less than a year ago is outdated. Time for round two. 
 
+<aside> 
+<h3>A Caveat</h3>
+<p>This is more of a guided heuristic that assumes some knowledge of CSS. You can copy and paste the javascript, but you still need to manually set colors in your CSS.</p>
+</aside>
+
 The basic concept is still the same. I need both a dark and light mode that works on my static Jekyll site. I still don't want to use cookies while having a switch that keeps dark or light mode consistent. I also don't want a light or dark flash when navigating between pages. 
+
 
 ## What's changed
 
@@ -17,19 +23,14 @@ Before I used local storage to permanently save someone's preferences. This has 
 
 Another positive change is more and more themes for major site generators already have a dark mode built into them. If you aren't using or a theme or built your own, read on. 
 
-<aside> 
-<h3>A Caveat</h3>
-<p>This is more of a guided heuristic that assumes some knowledge of CSS. You can copy and paste the javascript, but you still need to manually set colors in your CSS.</p>
-</aside>
-
 ## Step one: CSS variables everywhere
 
 You can no longer hardcode colors into CSS if you want to switch between themes. Instead every color has to be declared with a variable. 
 
-**Your CSS should look like this:**
+Your CSS should look like this:
 {% highlight CSS  %}background-color: var(--background-color);{% endhighlight %}
 
-**Don't do this:**
+Don't do this:
  {% highlight CSS  %}background-color: white;{% endhighlight %}
  
 ## Simplicity: the buttonless solution 

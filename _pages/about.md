@@ -4,6 +4,10 @@ description: “Derek Kedziora is a UX Writer and Content Designer, geek, tinker
 about: true
 permalink: /about
 nav-title: true
+# subtitle-nav: true 
+sub-navs:
+ - "<a href='/portfolio' title='Portfolio'>Portfolio</a>"
+ - "<a href='/now' title='Now Page'>Now</a>"
 --- 
 
 <figure class="about-image"><img src="/static/derek.jpg" alt="The author at a cafe" title="Derek Kedziora"></figure>

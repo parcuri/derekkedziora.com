@@ -131,7 +131,6 @@ footer {
   border-bottom: 1px solid var(--light-border-color);
   color: var(--light-text-color);
   font-family: $nav-typeface;
-  font-size: .55em;
   letter-spacing: .05em;
   max-width: $text-width;
   margin: 1.5em 0 0 0;
@@ -140,27 +139,25 @@ footer {
   text-transform: uppercase;
   a {
     color: var(--light-text-color);
+    font-size: .6em;
     text-decoration: none;
     margin: 0 2.75% 0 0;
   }
   h1, .name {
-    color: var(--light-text-color);
+    color: var(--main-text-color);
     display: block;
-    font-weight: 700;
-    font-size: 1.3em;
+    font-weight: 400;
+    font-size: 1em;
     line-height: 1;
     margin: 0 0 .5em 0;
   }
   .current-page {
+    font-size: .6em;
     text-decoration: line-through;
     margin: 0 2.75% 0 0;
   }
   #theme-toggle {
     cursor: pointer;
-  }
-  #theme-toggle:active {
-    color: var(--light-text-color);
-    text-decoration: none;   
   }
 }
 
@@ -169,8 +166,10 @@ footer {
   font-size: .65em;
   margin: .25em 0 0 0;
   a {
-    margin-right: 3%;
     text-decoration: none;
+  }
+  span {
+    margin: 0 1%;
   }
 }
 
@@ -180,7 +179,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 1.4em;
+  font-size: 1.45em;
   margin: 0;
 }
 
@@ -353,7 +352,7 @@ time {
   color: var(--light-text-color);
   display: block;
   margin: .5em 0 0 0;
-  font-size: .65em;
+  font-size: .7em;
 }
 
 a.internal-nav {
@@ -388,7 +387,7 @@ a.internal-nav {
     flex-basis: 50%;
   }
 
-  #theme-toggle:hover {
+  a:hover, a:active {
     color: var(--light-text-color);
     text-decoration: none; 
   }
@@ -396,6 +395,7 @@ a.internal-nav {
   .tag-nav {
     column-count: 2;
   }
+
 }
 
 

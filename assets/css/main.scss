@@ -70,6 +70,7 @@ html[data-theme="dark"] {
 
 html, html[data-theme="dark"], html[data-theme="light"] {
   height: 100%;
+  scroll-behavior: smooth;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }

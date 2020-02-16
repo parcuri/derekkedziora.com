@@ -4,7 +4,7 @@ permalink: /portfolio
 ---
 
 ## UX  Writing
-I created all of the text and crafted the flow for Wix's [WordPress Blog Importer](https://wix.com/blog-importer) from scratch. Additionally, I was responsible for coördinating the localization of the importer into 20 languages. 
+I created all of the text and crafted the flow for Wix's [WordPress Blog Importer](https://wix.com/blog-importer) from scratch. Additionally, I was responsible for coordinating the localization of the importer into 20 languages. 
 
 ## Blogging 
 

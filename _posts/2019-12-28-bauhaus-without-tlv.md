@@ -1,6 +1,6 @@
 ---
-title: The Curious Case of Bauhaus without Tel Aviv
-description: “More frustrating than the glaring omission of Tel Aviv from a film about Bauhaus is the silence in trying to figure the motive—was it BDS inspired anti-semitism or something reasonable?” 
+title: The Curious Case of Bauhaus without Tel&nbsp;Aviv
+description: “More frustrating than the glaring omission of Tel Aviv from a film about Bauhaus is the silence in trying to figure the motive&thinsp;—&thinsp;was it BDS inspired anti-semitism or something reasonable?” 
 date: 2019-12-28 21:30:00
 --- 
 
@@ -45,7 +45,7 @@ This isn’t exaggeration. A generation of BDS in academia will inevitably lead 
 
 There’s a deeper intellectual paradigm at play here. North American and European Liberals see themselves as removed from history in a way that others aren’t. 
 
-Suppose Turkish film makers created a project that was funded by the Turkish government that glossed over the Armenian and Greek history of Anatolia. Most people would shrug it off—well what did you expect? *We* as modern liberals aren’t swayed by prejudices like such non-woke people. 
+Suppose Turkish film makers created a project that was funded by the Turkish government that glossed over the Armenian and Greek history of Anatolia. Most people would shrug it off&thinsp;—&thinsp;well what did you expect? *We* as modern liberals aren’t swayed by prejudices like such non-woke people. 
 
 This is nothing short of delusional. Centuries of anti-Semitism that culminated in 6 million murders only two generations ago aren’t irrelevant to the conversation. The fact that someone doesn’t support Trump, Brexit or the conservative cause *du jour* doesn’t mean they’re free of racism, sexism or other prejudices. The human brain is hardwired for tribalism.
 

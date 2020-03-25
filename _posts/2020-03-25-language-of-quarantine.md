@@ -37,7 +37,7 @@ How about:
 
 > Only leave home for necessities. Stay 6 feet away from people in public. 
 
-#socialDIstancing works as a hash tag, but the messaging on what it actually entails was muddled.
+#socialDistancing works as a hash tag, but the messaging on what it actually entails was muddled.
 
 *Shelter in place* is even more bizarre. This sounds like an imminent emergency. There’s a sense of urgency.  
 

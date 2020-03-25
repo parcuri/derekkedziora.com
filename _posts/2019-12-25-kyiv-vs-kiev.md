@@ -7,7 +7,7 @@ categories:
 date: 2019-12-25 17:45:00
 --- 
 
-Now that Ukraine is in the news everyday, the question of how to write the capital of the country in English has come up. So is it Kyiv or Kiev? 
+Now that Ukraine is in the news everyday, the question of how to write the capital of the country in English has come up. So is it Kyiv or Kiev?
 
 <aside> 
 <h3>TLDR</h3>
@@ -15,7 +15,7 @@ Now that Ukraine is in the news everyday, the question of how to write the capit
 <li>Both Kyiv and and Kiev are common and accepted in English.</li>
 <li>Most people who use Kiev don't have nefarious motives.</li>
 <li>The majority of Ukrainians prefer Kyiv.</li>
-<li>Kyiv will probably win out like Beijing has—eventually.</li> 
+<li>Kyiv will probably win out like Beijing has&thinsp;—&thinsp;eventually.</li> 
 </ul>
 </aside>
 

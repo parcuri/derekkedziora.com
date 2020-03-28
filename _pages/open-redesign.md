@@ -32,17 +32,18 @@ I first tried doing this in one go. Nope. Made zero real progress because it was
 
 Thus I’ve broken this down into smaller, iterative chunks.
 
+And to make it even more fun, I’m doing all of this from iPad. 
+
 
 ## In Progress 
 
-- Figure out a content strategy for the home page vs. the about page. Make sure they are complimentary without being overlapping.
-- Decide what “fun” pages to add. Now, uses, blog list? 
+- Rewrite home page and about page so their content doesn’t overlap 
 
 ## To Do 
 
 - Cull low quality content
 - Organize remaining content into more usable categories
-- Create *Now* and other fun pages, merge into single RSS feed
+- Merge *Now* and *English Learning* into single RSS feed with the blog posts
 - Update Portfolio page 
 - Redo site navigation: header nav, subtitles, footer and homepage
 - Update Post layout 
@@ -53,4 +54,5 @@ Thus I’ve broken this down into smaller, iterative chunks.
 
 ## Done 
 
-- Made this page. Gotta start somewhere, right? 🤷‍♂️ 
+- Created [now](/now), [uses](/uses) and [reading](/reading) pages. Added provisional content.   
+- Made this page. Gotta start somewhere.

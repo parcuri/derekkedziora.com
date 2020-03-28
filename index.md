@@ -7,6 +7,8 @@ nav-title: true
 
 Hey, there! 👋
 
+This site is undergoing a complete open redesign. [See my progress](/redesign). 
+
 I’m Derek Kedziora: an American in Kyiv, UX writer, former English teacher and all around geek.
 
 ## Highlights

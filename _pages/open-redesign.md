@@ -1,6 +1,6 @@
 ---
 title: Open Redesign
-description: “This is both a to-do list and explanation of why and where my site redesign is going.”  
+description: "This is both a to-do list and explanation of why and where my site redesign is going."  
 permalink: /redesign
 --- 
 

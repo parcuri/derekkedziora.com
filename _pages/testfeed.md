@@ -5,8 +5,6 @@ permalink: /testfeed
 
 {%- for post in site.posts -%}
 {%- if post.testfeed -%}
-
-{{ content }}
-
+{{ content }} 1
 {%- endif -%}
 {%- endfor -%}

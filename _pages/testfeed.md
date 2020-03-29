@@ -14,14 +14,14 @@ permalink: /testfeed
 {{ post.content }}
 
 —&thinsp;*{{ post.when }}*
-{%- endif -%}
 
 {%- endif -%}
-{%- endfor -%}
+{%- endif -%}
+{% endfor %}
 
-<h2>Previously…</h2>
+## Previously…
 
-{%- for post in site.posts -%}
+{% for post in site.posts %}
 
 {%- if post.now -%}
 
@@ -29,9 +29,10 @@ permalink: /testfeed
 
 {%- if counter > 1 -%}
 
-<h3>{{ post.when }}</h3>
+### {{ post.when }}
 
 {{ post.content }} 
+
 {%- endif -%}
 
 

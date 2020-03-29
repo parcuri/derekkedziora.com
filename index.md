@@ -4,8 +4,6 @@ og-type: website
 layout: index
 ---
 
-# Derek Kedziora 
-
 I’m a Kyiv-based content designer and occasional blogger. 
 
 Have a few minutes? [Check out my blog](/blog).

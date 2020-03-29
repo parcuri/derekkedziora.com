@@ -19,7 +19,7 @@ permalink: /testfeed
 {%- endif -%}
 {%- endfor -%}
 
-## Previously 
+<h2>Previously…</h2>
 
 {%- for post in site.posts -%}
 
@@ -28,7 +28,8 @@ permalink: /testfeed
 {%- assign counter = counter | plus: 1 -%}
 
 {%- if counter > 1 -%}
-### {{ post.when }} 
+
+<h3>{{ post.when }}</h3>
 
 {{ post.content }} 
 {%- endif -%}

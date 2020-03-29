@@ -4,7 +4,9 @@ og-type: website
 layout: index
 ---
 
-I’m a Kyiv-based content designer and occasional blogger. 
+Content designer, UX writter and intermittent blogger
+
+ 
 
 Have a few minutes? [Check out my blog](/blog).
 

@@ -11,12 +11,27 @@ permalink: /testfeed
 {%- assign counter = counter | plus: 1 -%}
 
 {%- if counter == 1 -%} 
-
 {{ post.content }}
 
 —&thinsp;*{{ post.when }}*
-
 {%- endif -%}
+
+{%- endfor -%}
+
+## Previously 
+
+{%- for post in site.posts -%}
+
+{%- if post.now -%}
+
+{%- assign counter = counter | plus: 1 -%}
+
+{%- if counter > 1 -%}
+### {{ post.when }} 
+
+{{ post.content }} 
+{%- endif -%}
+
 
 {%- endif -%}
 {%- endfor -%}

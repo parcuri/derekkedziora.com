@@ -37,13 +37,13 @@ And to make it even more fun, I’m doing all of this from iPad.
 
 ## In Progress 
 
-- Rewrite home page and about page so their content doesn’t overlap 
+- Add the *Now* page to the main RSS feed. Keep the /now URL always pointing to the latest update without having to manually change previous now updates. 
 
 ## To Do 
 
 - Cull low quality content
 - Organize remaining content into more usable categories
-- Merge *Now* and *English Learning* into single RSS feed with the blog posts
+- Add *English Learning* into single RSS feed with the blog posts
 - Update Portfolio page 
 - Redo site navigation: header nav, subtitles, footer and homepage
 - Update Post layout 
@@ -54,5 +54,6 @@ And to make it even more fun, I’m doing all of this from iPad.
 
 ## Done 
 
-- Created [now](/now), [uses](/uses) and [reading](/reading) pages. Added provisional content.   
+- Redid the content on the Home and About pages so they are no longer overlapping.
+- Created [now](/now), [uses](/uses) and [reading](/reading) pages.  
 - Made this page. Gotta start somewhere.

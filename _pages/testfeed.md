@@ -8,7 +8,7 @@ permalink: /testfeed
 
 {%- if post.now -%}
 
-{%- increment counter -%}
+{%- assign counter = counter | plus: 1 -%}
 
 {%- if counter == 1 -%} 
 

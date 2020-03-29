@@ -6,7 +6,9 @@ permalink: /uses
 
 No affiliate links. Just stuff that I like and think others would find useful. 
 
-## Tech Hardware 
+## Tech Hardware
+
+I'm an Apple guy but not a fanboy. The ecosystem is great for getting my word done and creating something of a private social netword with chat and photo sharing. 
 
 ### iPad
 
@@ -21,12 +23,15 @@ I have a company-provided MacBook Pro that I use for Sketch, Abstract and a few 
 The only other niche for a laptop that a tablet just doesn’t hit is doing *a lot* of writing from a couch. Even an iPad with a smart keyboard just isn’t as good. 
 
 ### Phone
+
 I love my iPhone XR. I was hesitant to buy a big phone, now I can’t image going back to a smaller one. I get more than a day out of the battery, even with heavy use.
 
 I’m not much of a photographer, so no idea how the camera really stacks up. It’s good enough for me though. 
 
-##3 Watch
+### Watch
+
 I have a series 3 Apple Watch. I like it, especially the health tracking apps. I can’t say that I’m convinced this is more than a toy, though.
 
 ### Overall
+
 This is pretty close to hitting the sweet spot. The only change I’d consider: making the new MacBook Air my main device and switching to an iPad mini as my portable device. Or, if I’m going all in on the iPad perhaps getting the monster iPad Pro plus a mini. 

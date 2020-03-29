@@ -191,7 +191,6 @@ h2 {
 
 h3 { 
   font-size: 1.1em;
-  margin-top: 3em;
 }
 
 h2 + *, h3 + *  {
@@ -287,6 +286,10 @@ aside {
 
 ::selection {
   background-color: var(--highlight-color);
+}
+
+.index-header {
+  margin: 3em 0 0 0;
 }
 
 .listing {

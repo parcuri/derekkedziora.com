@@ -16,6 +16,7 @@ permalink: /testfeed
 —&thinsp;*{{ post.when }}*
 {%- endif -%}
 
+{%- endif -%}
 {%- endfor -%}
 
 ## Previously 

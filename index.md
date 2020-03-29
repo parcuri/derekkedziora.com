@@ -1,11 +1,10 @@
 ---
 title: "Derek Kedziora"
 og-type: website
-index: true
-nav-title: true
+layout: index
 ---
 
-Hey there! 👋
+# Derek Kedziora 
 
 I’m a Kyiv-based content designer and occasional blogger. 
 

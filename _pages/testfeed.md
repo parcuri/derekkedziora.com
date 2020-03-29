@@ -6,11 +6,11 @@ permalink: /testfeed
 
 {%- for post in site.posts -%}
 
-{%- assign counter = counter | plus: 1 -%}
+{%- increment counter -%}
 
 {%- if post.now -%}
 
-{%- if counter = 1 -%} 
+{%- if counter == 1 -%} 
 
 {{ post.content }}
 

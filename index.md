@@ -5,23 +5,21 @@ index: true
 nav-title: true
 ---
 
-Hey, there! 👋
+Hey there! 👋
 
-This site is undergoing a complete open redesign. [See my progress](/redesign). 
+I’m a Kyiv-based content designer and occasional blogger. 
 
-I’m Derek Kedziora: an American in Kyiv, UX writer, former English teacher and all around geek.
+Have a few minutes? [Check out my blog](/blog).
 
-## Highlights
+Learning English or improving your writing? You might like my [English guides](/english)
 
-[Data Driven Marketing in a Web of Fake Data](/blog/fake-data) and [Self-Driving Cars Are Corporate FOMO](/blog/glomar-cars) are my most popular stories on Medium. 
+This site is undergoing a complete redesign in the open. [See my progress](/redesign). 
 
-[Dark Mode Revisited](/blog/dark-mode-revisited) gets the most traffic from search engines. 
+You can also read more [about me](/about), take a look at my [portfolio](/portfolio), see what I’m doing [now](/now), the things I [use](/use), what I’m [reading](/reading) or how I [built this site](/colophon). 
 
-I get the most emails about [Ten Days of Meditation at Suan Mokkh](/blog/suan-mokkh-retreat) and [Meditation Retreat at Dipabhāvan](/blog/dipibhavan-retreat).  
 
-My real life friends ask me about my [English Guides](/english "English Guides") the most. 
+## What’s New Around Here 
 
-## Latest blog posts
 <ul class="listing">
 {% assign i = 0 %}
 {% for post in site.posts %}
@@ -36,3 +34,16 @@ My real life friends ask me about my [English Guides](/english "English Guides")
 </ul>
 
 [All Posts](/blog)
+
+<!---
+
+## Highlights
+
+[Data Driven Marketing in a Web of Fake Data](/blog/fake-data) and [Self-Driving Cars Are Corporate FOMO](/blog/glomar-cars) are my most popular stories on Medium. 
+
+[Dark Mode Revisited](/blog/dark-mode-revisited) gets the most traffic from search engines. 
+
+I get the most emails about [Ten Days of Meditation at Suan Mokkh](/blog/suan-mokkh-retreat) and [Meditation Retreat at Dipabhāvan](/blog/dipibhavan-retreat).  
+
+My real life friends ask me about my [English Guides](/english "English Guides") the most. 
+--> 

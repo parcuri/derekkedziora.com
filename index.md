@@ -11,11 +11,11 @@ I’m a Kyiv-based content designer and occasional blogger.
 
 Have a few minutes? [Check out my blog](/blog).
 
-Learning English or improving your writing? You might like my [English guides](/english)
+Learning English or improving your writing? My [English guides](/english) are for you. 
 
 This site is undergoing a complete redesign in the open. [See my progress](/redesign). 
 
-You can also read more [about me](/about), take a look at my [portfolio](/portfolio), see what I’m doing [now](/now), the things I [use](/use), what I’m [reading](/reading) or how I [built this site](/colophon). 
+You can also read more [about me](/about), take a look at my [portfolio](/portfolio), see what I’m doing [now](/now), the things I [use](/uses), what I’m [reading](/reading) or how I [built this site](/colophon). 
 
 
 ## What’s New Around Here 

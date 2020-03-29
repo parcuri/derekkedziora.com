@@ -25,7 +25,7 @@ I’m something between a Stoic and a Buddhist, and started meditating before th
 
 I live in Kyiv, Ukraine but am originally from Phoenix, Arizona with a few stops along the way. 
 
-Check out my [portfolio](/portfolio), see what I’m doing [now](/now), the things I [use](/use), what I’m [reading](/reading) or how I [built this site](/colophon).  
+Check out my [portfolio](/portfolio), see what I’m doing [now](/now), the things I [use](/uses), what I’m [reading](/reading) or how I [built this site](/colophon).  
 
 ## Social without Social Media 
 

@@ -1,6 +1,6 @@
 ---
 title: Test Feed
-permalink: /test-feed
+permalink: /testfeed
 ---
 
 {%- for post in site.posts -%}

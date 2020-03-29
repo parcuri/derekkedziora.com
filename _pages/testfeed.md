@@ -6,9 +6,9 @@ permalink: /testfeed
 
 {%- for post in site.posts -%}
 
-{%- increment counter -%}
-
 {%- if post.now -%}
+
+{%- increment counter -%}
 
 {%- if counter == 1 -%} 
 

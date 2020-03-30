@@ -3,9 +3,45 @@ title: Now
 description: "What I'm currently up to"
 permalink: /now
 ---
+{%- assign counter = 0 -%}
 
-I’ve switched to using an iPad as my main computing device. The overwhelming majority of what I do is either reading or writing, so I don’t feel the whole “is this a laptop replacement” thing. For someone working in UX, this is a fun experiment, since my whole mental model of how computers work has been turned upside down&thinsp;—&thinsp;mostly in a good way.
+{%- for post in site.posts -%}
 
-I’m working through a few books about typography. Once I finish up, I plan to do a redesign of my site and wrote a blogpost or two about my takeaways.
+{%- if post.now -%}
 
-*March 2020*
+{%- assign counter = counter | plus: 1 -%}
+
+{%- if counter == 1 -%} 
+{{ post.content }}
+
+—&thinsp;*{{ post.when }}*
+
+{%- endif -%}
+{%- endif -%}
+{% endfor %}
+
+
+<!--
+
+## Previously…
+
+{% for post in site.posts %}
+
+{%- if post.now -%}
+
+{%- assign counter = counter | plus: 1 -%}
+
+{%- if counter > 1 -%}
+
+### {{ post.when }}
+
+{{ post.content }} 
+
+{%- endif -%}
+
+
+{%- endif -%}
+{%- endfor -%}
+
+--> 
+

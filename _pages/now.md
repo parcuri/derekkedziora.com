@@ -3,6 +3,7 @@ title: Now
 description: "What I'm currently up to"
 permalink: /now
 ---
+
 {%- assign counter = 0 -%}
 
 {%- for post in site.posts -%}
@@ -11,7 +12,8 @@ permalink: /now
 
 {%- assign counter = counter | plus: 1 -%}
 
-{%- if counter == 1 -%} 
+{%- if counter == 1 -%}
+ 
 {{ post.content }}
 
 —&thinsp;*{{ post.when }}*
@@ -19,6 +21,7 @@ permalink: /now
 {%- endif -%}
 {%- endif -%}
 {% endfor %}
+
 
 
 <!--

@@ -8,7 +8,7 @@ permalink: /blog/witty-ux-writing
 
 There’s no easy answer to how UX writers and content designers should handle writing for an international product. 
 
-One approach is to go all in on making the original version feel natural in English (or whatever the original language is). Fill an American product with baseball metaphors and slang.
+One approach is to go all in on making the original version feel natural in English (or whatever the original language is). Go ahead and fill an American product with baseball metaphors and slang.
 
 The other approach is to write in a boring global English. No slang, no local feel and no fun. The obvious benefit is that non-native English speakers around the world can use this version more or less easily, and it’s straightforward to translate. 
 

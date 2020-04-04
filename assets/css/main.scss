@@ -97,13 +97,13 @@ body {
   hanging-punctuation: first last;
   height: 100%;
   line-height: 1.35em;
-  padding-bottom: 10vh;
   margin: 0;
   text-rendering: optimizeLegibility;
 }
 
 main {
   max-width: $text-width;
+  padding-bottom: 10vh;
   width: 100%;
 }
 

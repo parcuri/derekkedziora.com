@@ -37,12 +37,11 @@ And to make it even more fun, I’m doing all of this from iPad.
 
 ## In Progress 
 
-- Add the *Now* page to the main RSS feed. Keep the /now URL always pointing to the latest update without having to manually change previous now updates. 
+- Cull low quality content
+- Organize remaining content into more usable categories
 
 ## To Do 
 
-- Cull low quality content
-- Organize remaining content into more usable categories
 - Add *English Learning* into single RSS feed with the blog posts
 - Update Portfolio page 
 - Redo site navigation: header nav, subtitles, footer and homepage
@@ -54,6 +53,7 @@ And to make it even more fun, I’m doing all of this from iPad.
 
 ## Done 
 
+- Added the Now page to the main RSS feed but hid it from the blog page. Automated the process of updating it. 
 - Redid the content on the Home and About pages so they are no longer overlapping.
 - Created [now](/now), [uses](/uses) and [reading](/reading) pages.  
 - Made this page. Gotta start somewhere.

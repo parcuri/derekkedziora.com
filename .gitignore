@@ -8,7 +8,7 @@ static/.DS_Store
 _includes/.DS_Store
 
 # generated site folder
-# _site/
+_site/
 
 # jekyll cahce
 .jekyll-cache/

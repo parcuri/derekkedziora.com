@@ -4,3 +4,5 @@ permalink: /testing
 ---
 
 Lorem ipsum :) 
+
+testing again.

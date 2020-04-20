@@ -4,23 +4,23 @@ no-index: true
 permalink: /bday
 --- 
 
-![](/static/bday/2010.jpeg)
+<img src="/static/bday/2010.jpeg" loading="lazy">
 <p class="caption">2010</p>
 
-![](/static/bday/2011.JPG)
+<img src="static/bday/2011.JPG" loading="lazy">
 <p class="caption">2011</p>
 
-![](/static/bday/2013.JPG)
+<img src="/static/bday/2013.JPG" loading="lazy">
 <p class="caption">2013</p>
 
-![](/static/bday/2015.jpg)
+<img src="static/bday/2015.jpg" loading="lazy">
 <p class="caption">2015</p>
 
-![](/static/bday/2016.jpg)
+<img src="/static/bday/2016.jpg" loading="lazy">
 <p class="caption">2016</p>
 
-![](/static/bday/2018.jpg)
+<img src="/static/bday/2018.jpg" loading="lazy">
 <p class="caption">2018</p>
 
-![](/static/bday/2019.jpeg)
+<img src="/static/bday/2019.jpeg" loading="lazy">
 <p class="caption">2019</p>

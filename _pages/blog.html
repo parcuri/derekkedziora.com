@@ -6,14 +6,9 @@ blog-index: true
 permalink: /blog
 subtitle-nav: true 
 sub-navs:
- - "<a href='/blog/tags' title='Blog Tags'>Tags</a>"
+ - "<a href='/blog/tags' title='Blog Tags'>Categories</a>"
  - "<a href='/blog/random' title='Random Post'>Random Post</a>"
 ---
-
-<!--<div class="top-of-listing">
-<a href="/blog/random" title="Random Post">Random Post</a> || 
-<a href="/blog/tags" title="tags">Tags</a>
-</div>-->
 
 {%- for post in site.posts -%}
 {%- unless post.unlisted -%}

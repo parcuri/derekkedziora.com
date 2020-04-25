@@ -4,16 +4,17 @@ description: “Derek Kedziora is a UX Writer and Content Designer, geek, tinker
 about: true
 permalink: /about
 nav-title: true
-# subtitle-nav: true 
+subtitle-nav: true 
 sub-navs:
  - "<a href='/portfolio' title='Portfolio'>Portfolio</a>"
  - "<a href='/now' title='Now Page'>Now</a>"
+ - "<a href='/uses'>Uses</a>"
+ - "<a href='/colophon'>Colophon</a>"
 --- 
 
-<figure class="about-image"><img src="/static/derek.jpg" alt="The author at a cafe" title="Derek Kedziora" loading="lazy"></figure>
-
-
 I’m a writer in the tech industry. Take your pick of content designer, UX writer, technical writer or copywriter. 
+
+<img src="/static/derek.jpg" alt="The author at a cafe" title="Derek Kedziora" loading="lazy" style="float: right; padding-left: 5%; max-width: 50%;">
 
 My background is in linguistics and teaching English as a foreign language was my first career. 
 

@@ -10,13 +10,17 @@ The simple, yet counterintuitive, idea that many of the jobs in the modern workp
 
 Bullshit should be taken seriously as a real anthropological phenomenon and requires a proper scientific definition. 
 
-bullshit
-: Anything that serves no real purpose, and the absence of which would go mostly unnoticed even by those in close proximity to it.
+<aside>
+<h3>bullshit</h3>
+<p>Anything that serves no real purpose, and the absence of which would go mostly unnoticed even by those in close proximity to it.</p>
+</aside>
 
 Writing SEO texts that no human will ever read or find useful is bullshit in the academic sense. It's important not to confuse this with shitty. 
 
-shitty 
-: Something that is unpleasant regardless of its utility. 
+<aside>
+<h3>shitty</h3>
+<p>Something that is unpleasant regardless of its utility.</p>
+</aside>
 
 Cleaning toilets can be shitty, but it's definitely not bullshit. 
 

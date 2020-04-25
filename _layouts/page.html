@@ -10,7 +10,11 @@
 
 <nav> 
 	<a href="/" title="Derek Kedziora" rel="author">Derek Kedziora</a>&emsp;
-	<a href="/blog">Blog</a>
+	{%- if page.blog-index -%}
+		<span style="color: var(--light-text-color); text-decoration: line-through;">Blog</span>&emsp;
+		{%- else -%}
+			<a href="/blog">Blog</a>
+	{%- endif -%}
 	<a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer; float: right; margin: 0;"></a>
 </nav>
 
@@ -18,7 +22,13 @@
 
 <header>
 	<h1>{{ page.title }}</h1>
-	<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ page.date | date: "%Y" }}</time>
+	{%- if page.subtitle-nav -%}
+	<nav>
+	  	{%- for sub-nav in page.sub-navs -%}
+			{{sub-nav}}&emsp;
+		{%- endfor -%}
+	</nav>
+	{%- endif -%}
 </header>
 
 {{ content }}

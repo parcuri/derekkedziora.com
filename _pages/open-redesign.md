@@ -45,14 +45,14 @@ And to make it even more fun, I’m doing all of this from iPad.
 - Add *English Learning* into single RSS feed with the blog posts
 - Update Portfolio page 
 - Redo site navigation: header nav, subtitles, footer and homepage
-- Update Post layout 
-- Update Page layout 
-- Update Home layout 
 - Design & typography updates
 - Refactor CSS and HTML 
 
 ## Done 
 
+- Update Post layout 
+- Update Page layout 
+- Update Home layout 
 - Added the Now page to the main RSS feed but hid it from the blog page. Automated the process of updating it. 
 - Redid the content on the Home and About pages so they are no longer overlapping.
 - Created [now](/now), [uses](/uses) and [reading](/reading) pages.  

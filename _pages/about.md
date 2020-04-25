@@ -10,7 +10,7 @@ sub-navs:
  - "<a href='/now' title='Now Page'>Now</a>"
 --- 
 
-<figure class="about-image"><img src="/static/derek.jpg" alt="The author at a cafe" title="Derek Kedziora"></figure>
+<figure class="about-image"><img src="/static/derek.jpg" alt="The author at a cafe" title="Derek Kedziora" loading="lazy"></figure>
 
 
 I’m a writer in the tech industry. Take your pick of content designer, UX writer, technical writer or copywriter. 

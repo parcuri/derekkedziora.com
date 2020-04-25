@@ -23,6 +23,7 @@ defaults:
       type: "posts"
     values:
       blogpost: true
+      layout: post
       
   -    
     scope:

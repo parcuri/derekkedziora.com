@@ -1,0 +1,39 @@
+{%- include pretty-numbers.html -%}
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  {%- include head-matter.html -%}
+</head>
+
+<body>
+
+<nav> 
+	<a href="/" title="Derek Kedziora" rel="author">Derek Kedziora</a>&emsp;
+	<a href="/blog">Blog</a>
+	<a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer; float: right; margin: 0;"></a>
+</nav>
+
+<article>
+
+<header>
+	<h1>{{ page.title }}</h1>
+	<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ page.date | date: "%Y" }}</time>
+</header>
+
+{{ content }}
+
+</article>
+
+<footer>
+	<div class="contact-info">
+ 		<a href="#">Back to top</a> || <a href="/feed.xml" title="RSS">RSS</a> || <a href="https://twitter.com/derekkedziora" title="Twitter">Twitter</a> || <a href="https://t.me/@derekblog" title="Telegram">Telegram</a><br>
+		derekkedziora@icloud.com
+	</div>
+</footer>
+
+</body>
+
+<script src="/assets/scripts/mode-switcher.js"></script>
+
+</html>

@@ -15,10 +15,8 @@ sub-navs:
 <a href="/blog/tags" title="tags">Tags</a>
 </div>-->
 
-<ul class="listing">
 {%- for post in site.posts -%}
 {%- unless post.unlisted -%}
 	{%- include blog-listing.html -%}
 {%- endunless -%}
 {%- endfor -%}
-</ul>

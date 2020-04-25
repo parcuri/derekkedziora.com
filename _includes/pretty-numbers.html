@@ -1,4 +1,4 @@
-{%- assign dateOfPost = {{post.date | date: "%d"}} -%}
+{%- assign dateOfPost = {{page.date | date: "%d"}} -%}
 
 {%- if dateOfPost == "01" or dateOfPost == "21" or dateOfPost == "31" -%}
 	{%- assign ordinalEnding = "st" -%}
@@ -18,7 +18,3 @@
 {%- else -%}
 	{%- assign prettyDateOfPost = dateOfPost -%}
 {%- endif -%}
-
-
-<p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a><br>
-<time>{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time></p>

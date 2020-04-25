@@ -23,6 +23,7 @@ defaults:
       type: "posts"
     values:
       blogpost: true
+      layout: post
       
   -    
     scope:
@@ -30,6 +31,14 @@ defaults:
       type: "english-guides"
     values:
       english-guide: true
+
+  -    
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+
 
 collections:
   pages:

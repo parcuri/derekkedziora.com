@@ -25,12 +25,12 @@ permalink: /blog/tags
 {% for listOfTag in listOfTags %}
 <section id='{{listOfTag}}' class="tag-lists">
 <h2>{{listOfTag | replace: "-", " "}}</h2>
-<ul>
 {% for post in site.posts %}
 {% if post.categories contains listOfTag %}
 {% include blog-listing.html %}
 {% endif %}
-{% endfor %}</ul>
-<a href="#" title="Top of Page" class="internal-nav">Back to top</a>
+{% endfor %}
+
+<p><a href="#" title="Top of Page" class="internal-nav">Back to top</a></p>
 </section>
 {% endfor %} 

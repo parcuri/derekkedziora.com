@@ -12,7 +12,7 @@ I didn't need dozens of emails from companies, most of which I hadn't done busin
 
 It's not that I'm indifferent. Rather, we've become a bit like five-year-olds playing soccer&thinsp;—&thinsp;all bunched up around the ball while the rest of the field is empty. It takes skill and maturity to be fully aware of where the ball is but also play your position.
 
-Going after SEO is lazy. Sure, it's part fo the problem. Almost anyone who writes online feels the pressure to pack everything with buzzwords. 
+Going after SEO is lazy. Sure, it's part of the problem. Almost anyone who writes online feels the pressure to pack everything with buzzwords. 
 
 The culture of push notifications and breaking news doesn't help. Dropping an overused word is an easy win in the attention economy. 
 

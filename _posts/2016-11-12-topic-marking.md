@@ -1,6 +1,9 @@
 ---
 title: Topic Marking
-description: Sound more natural when speaking English by not marking the topic of a sentence. Skip phrases like 'as for me', 'in my opinion' and 'regarding'. 
+description: Sound more natural when speaking English by not marking the topic of a sentence. Skip phrases like 'as for me', 'in my opinion' and 'regarding'.
+efl: true
+english-guide: true
+permalink: /english/topic-marking 
 ---
 
 An easy way to sound more natural in English is to skip topic marking and use context to make your meaning clear. 

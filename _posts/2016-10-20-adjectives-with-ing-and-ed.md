@@ -1,6 +1,9 @@
 ---
 title: Adjectives with -ing and -ed
 description: Is your English Teacher Bored, Boring or Both? A Quick guide to figuring out ing / ed adjectives 
+efl: true
+english-guide: true
+permalink: /english/adjectives-with-ing-and-ed
 ---
 
 Most English adjectives that describe an emotional experience end in either -ing or -ed.

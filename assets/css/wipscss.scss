@@ -167,8 +167,12 @@ h2, h3 {
 
 ul, ol {
   list-style-position: outside;
+  padding-left: 2em;
+}
+
+
+ul {
   list-style-type: circle;
-  padding-left: 1.7875em;
 }
 
 li + li {

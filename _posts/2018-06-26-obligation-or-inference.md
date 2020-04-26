@@ -2,6 +2,7 @@
 title: "Should Have vs. Must Have"
 description: "When using modal verbs it's important to quickly classify whether you are describing an inference or obligation. They have the same form in the present but differ in the past and future."
 efl: true
+english-guide: true
 permalink: /english/should-have-vs-must-have
 ---
 
@@ -67,7 +68,7 @@ We also use the same modal verbs to show that we're making a guess based on evid
 > `10.` *It has to be hot outside since everybody is wearing shorts.*  
 > `11.` *It must be hot outside since everybody is wearing shorts.*
 
-Both > `9` and > `10` are common while > `11` is bit a more formal.
+Both `[9]` and `[10]` are common while `[11]` is bit a more formal.
 
 ## Inferences about future events
 

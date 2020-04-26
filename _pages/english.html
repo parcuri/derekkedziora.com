@@ -10,13 +10,7 @@ nav-title: true
 <h2>English Guides</h2>
 
 {%- for post in site.posts -%}
-	{%- if post.efl -%}
+	{%- if post.english-guide -%}
 		{%- include blog-listing.html -%}
 	{%- endif -%}
 {%- endfor -%}
-
-
-<h3>Guides needing some cleanup</h3>
-{% for english-guide in site.english-guides reversed %}
-<p><a href="{{english-guide.url}}">{{english-guide.title}}</a></p>
-{% endfor %}

@@ -1,6 +1,9 @@
 ---
 title: Common Mistakes in English
 description: Some of the most common mistakes that I hear from Ukrainians learning English and how to fix them. 
+efl: true 
+english-guide: true
+permalink: /english/common-mistakes
 ---
 
 My list is definitely not exhaustive, but here's a few of the more common 'slavicisms' I hear. 
@@ -87,7 +90,7 @@ Watch for register. These are all day-to-day words in Russian:
 
 Don't translate them with super formal, Latin words: 
 
-> `*`Communication with an interlocutor regarding acquaintances.
+> `*`&nbsp;Communication with an interlocutor regarding acquaintances.
 
 Go for day-to-day words instead: 
 
@@ -135,7 +138,7 @@ This is correct:
 
 This is not: 
 
-> `*`I don't know why do people make this mistake.
+> `*`&nbsp;I don't know why do people make this mistake.
 
 This isn't a question; drop the do.
 

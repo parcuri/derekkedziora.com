@@ -2,11 +2,8 @@
 ---
 
 $body-typeface: "Iowan Old Style", Georgia, serif;
-$nav-typeface: "Gill Sans", "Gill Sans MT", "Lato", sans-serif;
 $mono-typeface: Menlo, Monaco, monospace; 
 $text-width: 650px;
-$system-font: -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; 
-
 
 html, html[data-theme="light"] {
   --bold-color: rgb(0, 0, 0);
@@ -93,6 +90,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
+  height: 100%;
   padding: 0 7.5%;
 }
 
@@ -121,6 +119,7 @@ nav {
 }
 
 article {
+  margin: 0 0 auto 0;
   max-width: $text-width;
   width: 100%;
 }
@@ -130,7 +129,8 @@ header {
   text-align: center;
   h1 {
     font-size: 2.75rem;
-    font-weight: 400; 
+    font-weight: 400;
+    letter-spacing: -.01em; 
     line-height: 1.1;
   }
   time {

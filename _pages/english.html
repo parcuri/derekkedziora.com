@@ -1,0 +1,22 @@
+---
+title: Learning English 
+permalink: /english
+english-index: true
+nav-title: true
+---
+
+<p>Teaching English as a foreign language was my full-time gig until I switched to writing at the end of 2016.</p>
+
+<h2>English Guides</h2>
+
+{%- for post in site.posts -%}
+	{%- if post.efl -%}
+		{%- include blog-listing.html -%}
+	{%- endif -%}
+{%- endfor -%}
+
+
+<h3>Guides needing some cleanup</h3>
+{% for english-guide in site.english-guides reversed %}
+<p><a href="{{english-guide.url}}">{{english-guide.title}}</a></p>
+{% endfor %}

@@ -9,6 +9,7 @@ sub-navs:
  - "<a href='/portfolio' title='Portfolio'>Portfolio</a>"
  - "<a href='/now' title='Now Page'>Now</a>"
  - "<a href='/uses'>Uses</a>"
+ - "<a href='/reading'>Reading</a>"
  - "<a href='/colophon'>Colophon</a>"
 --- 
 

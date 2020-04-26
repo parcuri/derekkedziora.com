@@ -37,19 +37,21 @@ And to make it even more fun, I’m doing all of this from iPad.
 
 ## In Progress 
 
-- Cull low quality content
-- Organize remaining content into more usable categories
+- Cull low quality blog posts
+- Add intro content to blog categories 
+
 
 ## To Do 
 
-- Add *English Learning* into single RSS feed with the blog posts
 - Update Portfolio page 
-- Redo site navigation: header nav, subtitles, footer and homepage
 - Design & typography updates
 - Refactor CSS and HTML 
 
 ## Done 
 
+- Redo site navigation: header nav, subtitles, footer and homepage
+- Add *English Learning* into single RSS feed with the blog posts
+- Organize remaining content into more usable categories
 - Update Post layout 
 - Update Page layout 
 - Update Home layout 

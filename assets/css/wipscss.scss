@@ -102,7 +102,7 @@ p, li {
 nav {
   border-bottom: 1px solid var(--light-border-color);
   letter-spacing: -.05em;
-  line-height: 1;
+  line-height: 1.2;
   padding: 1em 0; 
   max-width: $text-width;
   width: 100%;
@@ -152,6 +152,9 @@ footer {
   max-width: $text-width;
   padding: 1em 0 5vh 0;
   width: 100%;
+  a {
+    color: var(--light-text-color);
+  }
 }
 
 

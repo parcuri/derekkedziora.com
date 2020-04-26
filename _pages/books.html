@@ -1,0 +1,15 @@
+---
+title: Books
+description: "My blog posts about books"
+og-type: website
+permalink: /books 
+---
+
+{%- for post in site.posts -%}
+	{%- for category in post.categories -%}	
+		{%- if category == "books" -%}
+			{%- include blog-listing.html -%}
+		{%- endif -%}
+	{%- endfor -%}
+{%- endfor -%}
+

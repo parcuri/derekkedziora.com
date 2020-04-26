@@ -1,0 +1,15 @@
+---
+title: Meditation
+description: "My blog posts about meditation"
+og-type: website
+permalink: /meditation 
+---
+
+{%- for post in site.posts -%}
+	{%- for category in post.categories -%}	
+		{%- if category == "meditation" -%}
+			{%- include blog-listing.html -%}
+		{%- endif -%}
+	{%- endfor -%}	
+{%- endfor -%}
+

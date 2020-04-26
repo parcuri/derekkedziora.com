@@ -6,8 +6,10 @@ blog-index: true
 permalink: /blog
 subtitle-nav: true 
 sub-navs:
- - "<a href='/blog/categories' title='Blog Tags'>Categories</a>"
- - "<a href='/blog/random' title='Random Post'>Random Post</a>"
+ - "<a href='/meditation' title='Meditation'>Meditation</a>"
+ - "<a href='/books' title='Book'>Books</a>"
+ - "<a href='/english' title='English'>English</a>"
+ - "<a href='/blog/random' title='Random Post'>Random&nbsp;Post</a>"
 ---
 
 {%- for post in site.posts -%}
@@ -15,3 +17,5 @@ sub-navs:
 	{%- include blog-listing.html -%}
 {%- endunless -%}
 {%- endfor -%}
+
+ 

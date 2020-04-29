@@ -15,7 +15,7 @@ Even though I’ve been living in Eastern Europe for a decade, I’m still miffe
 In practice this means that summer buses are sweltering and nobody will open a window, most buildings are poorly ventilated and finding a table at a restaurant is musical chairs to avoid sitting under the AC.
 
 <figure>
-	<img src="/static/posts/2020-04-20/IMG_1018.JPG" loading="lazy">
+	<img src="/static/posts/2020-04-20/IMG_1018.JPG" loading="lazy" alt="">  
 	<figcaption>A common sight in Eastern Europe</figcaption>
 </figure>
 

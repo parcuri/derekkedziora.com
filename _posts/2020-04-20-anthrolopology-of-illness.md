@@ -21,7 +21,7 @@ In practice this means that summer buses are sweltering and nobody will open a w
 
 This isn't something that only affects old ladies. Among my circle of the young (ahem, middle-aged) and scientifically educated, I hear of *skvozniak-related* illnesses all the time. 
 
-I'm met with dismay when I suggest that *skvozniaks* are a cultural phenomenon. It's not something that is provable, but there are some strong indicators. Currently, the most comprehensive Wikipedia article about the *skvozniak* phenomenon is in [Russian ](https://ru.wikipedia.org/wiki/Сквозняк). The only other languages with an article: Czech, German, Persian, Finnish, Macedonia, Portuguese and Ukrainian. Incidentally, the German article covers that debate about whether *skvozniaks* (or *Luftzug* in German) make you sick. 
+I'm met with dismay when I suggest that *skvozniaks* are a cultural phenomenon. It's not something that is provable, but there are some strong indicators. Currently, the most comprehensive Wikipedia article about the *skvozniak* phenomenon is in [Russian ](https://ru.wikipedia.org/wiki/Сквозняк). The only other languages with an article: Czech, German, Persian, Finnish, Macedonian, Portuguese and Ukrainian. Incidentally, the German article covers that debate about whether *skvozniaks* (or *Luftzug* in German) make you sick. 
 
 It's a quirk of Central and Eastern Europe. Luckily, most Ukrainians seem to accept that my Yankee blood gives me some level of immunity to the *skvozniak*. 
 

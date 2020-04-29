@@ -12,3 +12,6 @@ _site/
 
 # jekyll cahce
 .jekyll-cache/
+
+#gemlock 
+Gemfile.lock

@@ -9,7 +9,7 @@ categories:
 Antifragility and black swans have become synonymous with Nassim Nicholas Taleb, but the ideas go well beyond his exposition of them. But, Taleb's pompous internet persona and confrontational writing style are off putting. That's why I separate the philosophy of antifragility from the persona of Taleb.  
 
 <aside>
-<h3>April 2020 Updated</h3>
+<h3>April 2020 Update</h3>
 <p>Taleb was right on about COVID-19. I've updated this article to include these examples. Here's Taleb talking about the <a href="https://www.youtube.com/watch?v=DDdBTaLjGIo">risk of a pandemic in 2015</a>.</p>
 </aside>
 

@@ -59,8 +59,11 @@ My compromise is to use Kyiv for written English and [kee-yev] for spoken. I've 
 
 The English name of for the capital of Ukraine has historically been Kiev.  
 
-![Kiev is clearly the historical winner](/static/posts/2019-12-25/kyiv-kiev-ngrams.JPG "Ngrams") 
-<p class="caption">Kiev (blue) vs. Kyiv (red) Ngram [<a href="https://books.google.com/ngrams/graph?content=Kiev%2C+Kyiv&year_start=1800&year_end=2000&corpus=15&smoothing=3&share=&direct_url=t1%3B%2CKiev%3B%2Cc0%3B.t1%3B%2CKyiv%3B%2Cc0#t1%3B%2CKiev%3B%2Cc0%3B.t1%3B%2CKyiv%3B%2Cc0" title="Google Ngrams">source</a>]</p>
+<figure>
+	<img src="/static/posts/2019-12-25/kyiv-kiev-ngrams.JPG" title="Ngrams" alt="Kiev is clearly the historical winner">
+	<figcaption>Kiev (blue) vs. Kyiv (red) [<a href="https://books.google.com/ngrams/graph?content=Kiev%2C+Kyiv&year_start=1800&year_end=2000&corpus=15&smoothing=3&share=&direct_url=t1%3B%2CKiev%3B%2Cc0%3B.t1%3B%2CKyiv%3B%2Cc0#t1%3B%2CKiev%3B%2Cc0%3B.t1%3B%2CKyiv%3B%2Cc0" title="Google Ngrams">source</a>]</figcaption>
+</figure>
+
 
 The fact that there are two competing forms isn’t much of an issue to English speakers. We’re used to regional variations and allow a wide range within what’s accepted as “standard English.” Beyond that, there is not body like the *Académie française* without the anglo-sphere. Even if such a thing were to exist on a national level, why would New Zealanders care what some stodgy language bureaucrat in Washington thinks? 
 

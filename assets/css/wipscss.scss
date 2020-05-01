@@ -1,9 +1,9 @@
 ---
 ---
 
-$body-typeface: "Iowan Old Style", serif;
+$body-typeface: "Iowan Old Style", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", serif;
 $mono-typeface: Menlo, Monaco, monospace; 
-$text-width: 650px;
+$text-width: 40.5em;//650px
 
 html, html[data-theme="light"] {
   --bold-color: rgb(0, 0, 0);
@@ -79,6 +79,7 @@ html, html[data-theme="dark"], html[data-theme="light"] {
   hanging-punctuation: first last;
   height: 100%;
   text-rendering: optimizeLegibility;
+  font-variant-ligatures: common-ligatures;  
 }
 
 * {
@@ -96,7 +97,7 @@ body {
 
 p, li {
   font-size: 1.375rem; // 22px 
-  line-height: 1.3; //  28.6px = 1.7875em
+  line-height: 1.36; // 30px or 1.875rem
 }
 
 nav {
@@ -128,8 +129,8 @@ header {
   padding: 7.5vh 0 3em 0;
   text-align: center;
   h1 {
-    font-size: 2.75rem;
-    font-weight: 400;
+    font-size: 2.375rem;//36px;//2.75rem; // 44px
+    //font-weight: 400;
     letter-spacing: -.01em; 
     line-height: 1.1;
   }
@@ -159,13 +160,14 @@ footer {
 
 
 p + *, ul + *, ol + *, blockquote + *, figure + * {
-  margin: 1.7875em 0 0 0;
+  margin: 1.875em 0 0 0;
 }
 
 
 h2, h3 {
-  font-size: 1.625rem;
-  margin: 3.575rem 0 1.7875rem 0;
+  font-size: 1.625rem; // 26px 
+  line-height: 1.15; // 
+  margin: 3.755rem 0 .9375rem 0;
 }
 
 ul, ol {
@@ -175,11 +177,17 @@ ul, ol {
 
 
 ul {
-  list-style-type: circle;
+  //list-style-type: circle;
 }
 
+ul li::marker {
+  //color: var(--underline-color);
+  //font-size: 75%;
+}
+
+
 li + li {
-  padding: .89375em 0 0 0;
+  padding: .9375em 0 0 0;
 }
 
 ol li::marker {
@@ -187,11 +195,11 @@ ol li::marker {
 }
 
 blockquote {
-  margin: 0;
+  border-left: 3px solid var(--light-border-color);
+  margin: 1.7875rem 0;
   p {
-    padding: 1.7875rem 1.7875rem 0 1.7875rem;
-    font-size: 1.25rem;
-    line-height: 1.2;
+    font-style: italic;
+    padding: 0 1.7875rem;
   }
 }
 
@@ -246,20 +254,30 @@ aside {
   border-left: 3px solid var(--light-border-color);
   border-right: 3px solid var(--light-border-color);
   margin: 1.7875rem 0;
-  padding: .89375rem;
+  padding: .89375rem;;
   h3 {
-    font-size: 1.1rem;
-    margin: 0 0 .2em 0;
-  }
-  p {
     font-size: 1rem;
-    line-height: 1.3;
+    margin: 0 0 .6875em 0;
+  }
+  p, li {
+    font-size: 1rem; //16px 
+    line-height: 1.375; //22px
+  }
+  p + p {
+    margin: 1.375em 0 0 0; 
+  }
+  li +li {
+    padding: .6875em 0 0 0; 
   }
 }
 
 
 
-
+@media screen and(max-width: 30em) {
+  p {
+    //font-size: 18px;
+  }
+}
 
 
 

@@ -25,6 +25,9 @@
     <meta property="og:image" content="https://derekkedziora.com/static/derek.png"/>
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    {%- if page.updated-date -%}
+    <meta property="article:modified_time" content="{{ page.updated-date }}" />
+    {%- endif -%}
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}"/>
     <meta name="twitter:description" content="{%- if page.description -%}{{ page.description | truncate: 140 }}{%- else -%}{{ site.description | truncate: 140  }}{%- endif -%}"/>

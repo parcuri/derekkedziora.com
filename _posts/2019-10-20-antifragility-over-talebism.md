@@ -4,6 +4,8 @@ description: "There's more to antifragility than Nassim Nicholas Taleb. Other au
 categories: 
 - books
 - philosophy
+updated-date: 2020-05-01
+permalink: /blog/antifragility-over-talebism
 --- 
 
 Antifragility and black swans have become synonymous with Nassim Nicholas Taleb, but the ideas go well beyond his exposition of them. But, Taleb's pompous internet persona and confrontational writing style are off putting. That's why I separate the philosophy of antifragility from the persona of Taleb.  

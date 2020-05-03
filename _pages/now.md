@@ -16,17 +16,15 @@ permalink: /now
  
 {{ post.content }}
 
-—&thinsp;*{{ post.when }}*
+{%- endif -%}
+{%- endif -%}
 
-{%- endif -%}
-{%- endif -%}
 {% endfor %}
 
 
+## Previously
 
-<!--
-
-## Previously…
+{% assign counter = 0 %}
 
 {% for post in site.posts %}
 
@@ -34,17 +32,14 @@ permalink: /now
 
 {%- assign counter = counter | plus: 1 -%}
 
-{%- if counter > 1 -%}
+{% if counter > 1 %}
 
-### {{ post.when }}
+[{{post.when}}]({{post.url}})
 
-{{ post.content }} 
-
-{%- endif -%}
+{% endif %}
 
 
 {%- endif -%}
 {%- endfor -%}
 
---> 
 

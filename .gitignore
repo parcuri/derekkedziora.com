@@ -14,5 +14,4 @@ _site/
 .jekyll-cache/
 
 #gemlock 
-Gemfile
 Gemfile.lock

@@ -4,45 +4,45 @@ description: "The short form stuff that I read and listen to, a constantly evolv
 permalink: /reading
 --- 
 
-It’s a constant struggle to stay informed and discover new idea without drinking from the firehose of news and social media. I try to stick to mostly blogs and longer form content. 
+It’s a constant struggle to stay informed and discover new ideas without information overload. 
 
-First off, get an RSS reader. [News Explorer](https://betamagic.nl/products/newsexplorer.html) is the best and might be the only one to use iCloud sync.
-
-A read later app is also clutch. [Reeder](https://www.reederapp.com) is the only one I know of that offers local, iCloud sync. [Instapaper](https://www.instapaper.com) and [Pocket](https://getpocket.com) are good cloud-based options.  
-
-## News 
-
-The Morning Briefing from the New York Times (European edition in my case) is the best way to get a general idea of what’s going on in under five minutes. They have plenty of other free [email newsletters](https://www.nytimes.com/newsletters).
-
-I get weekly emails from [the Atlantic](https://www.theatlantic.com), [the Economist](https://www.economist.com) and [Nautilus](https://nautil.us). I read one or two articles from each a week. 
-
-For a fairly modest investment of time, I find that I’m more informed that most people who constantly check the headlines without being overwhelmed in news. 
-
-For Ukrainian news, [Hromadske](https://hromadske.ua) is my go-to source. 
+Following a few good blogs and podcasts gives me a far better view than chasing up-to-the-second headlines. 
 
 ## Blogosphere 
 
-[No Mercy / No Malice](https://www.profgalloway.com) by Scott Galloway is a good weekly read about tech and business. Direct link to [the RSS feed](https://api.profgalloway.com/feed/), which is hidden. 
+[No Mercy / No Malice](https://www.profgalloway.com) by Scott Galloway.<br>
+A healthy dose of tech and free market scepticism without a far left agenda. [Direct link to the RSS feed](https://api.profgalloway.com/feed/). 
 
-[Signal v. Noise](https://m.signalvnoise.com) by Basecamep. Yes, there’s a lot of self-promotion, but there’s also a lot of good stuff about office culture and tech. 
+[Seth Godin's Blog](https://seths.blog) is worth a read for anyone who writes, and by extension tells stories. 
 
-[Kottke.org](https://kottke.org) is bit of the fun randomness the internet once was. 
+[Signal v. Noise](https://m.signalvnoise.com) by Basecamp.<br>
+ Yes, there’s a lot of self-promotion, but there’s also a lot of good stuff about office culture and tech. 
 
-[Brad Frost’s blog](https://bradfrost.com) hits all the things I like about web design: accessibility, semantic HTML, having fun with CSS and not going overboard with JS. I like the dual designer-developer perspective. 
+[Brad Frost’s blog](https://bradfrost.com) hits all the things I like about web design: accessibility, semantic HTML, having fun with CSS and not going overboard with JS. The dual designer-developer perspective is quickly becoming a thing of the past.
 
 [Daring Fireball](https://daringfireball.net) has tech news, politics and random tidbits. 
 
-[Pedestrian Observations](https://pedestrianobservations.com) is devoted to public transportation geekery. Insanely in-depth stuff about transportation and urban design.   
-
 ## Podcasts 
 
-Tim Ferris is … but his guests are amazing. Listen to the [Tim Ferris Show](https://tim.blog/podcast/) for them. 
+I listen to ~10% of the episodes in my feed, but I've really come to appreciate a good, long podcast. 
 
-Joe Rogan’s topics are expansive. I listen to maybe 1 out of 10 episodes of [the JRE](http://podcasts.joerogan.net), there’s something for everyone here. Joe is the rare sort that can let people who disagrees with come on the show, be respectful and give them the space to explain himself. 
+[Stoic Meditations](https://podcasts.apple.com/us/podcast/stoic-meditations/id1328933559) is short, to the point and just what I need most days. 
 
+[Making Sense by Sam Harris](https://samharris.org/podcast/) covers the stuff I like: meditation, philosophy, politics.
 
-## Social Media 
+[The Joe Rogan Experience](http://podcasts.joerogan.net) has some great shows and many complete flops. 
 
-Twitter for following tech gossip and big events (my main source for the Ukrainian Revolution and COVID-19). 
+I listen to [the Tim Ferris Show](https://tim.blog/podcast/) for the guests. 
 
-Instagram exclusively for IRL friends. No influencers or celebrities. 
+[The Portal](https://podcasts.apple.com/us/podcast/the-portal/id1469999563) has it's moments but really depends on the guest. 
+
+## Twitter 
+
+If you're not having fun on Twitter, you're not doing it right. 
+
+[@flightrader](https://twitter.com/flightradar24) for general aviation buffs.
+
+[@shedd_aquarium](https://twitter.com/shedd_aquarium) has penguins. Enough said. 
+
+[@pinboard](https://twitter.com/pinboard) to stay abreast of the big-bookmarking world. 
+

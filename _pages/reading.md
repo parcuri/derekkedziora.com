@@ -46,3 +46,4 @@ If you're not having fun on Twitter, you're not doing it right.
 
 [@pinboard](https://twitter.com/pinboard) to stay abreast of the big-bookmarking world. 
 
+[@kottke](https://twitter.com/kottke) is a throwback to simpler times on the internet.

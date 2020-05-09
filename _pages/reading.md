@@ -30,7 +30,7 @@ I listen to ~10% of the episodes in my feed, but I've really come to appreciate 
 
 [Making Sense by Sam Harris](https://samharris.org/podcast/) covers the stuff I like: meditation, philosophy, politics.
 
-[The Joe Rogan Experience](http://podcasts.joerogan.net) has some great shows and many complete flops. 
+[The Joe Rogan Experience](http://podcasts.joerogan.net) has some great shows and many complete    flops. 
 
 I listen to [the Tim Ferris Show](https://tim.blog/podcast/) for the guests. 
 

@@ -15,7 +15,7 @@ layout: default
 
 {%- if counter == 1 -%}
 
-{%- assign dateOfPost = {{post.date | date: "%d"}} -%}
+{%- assign dateOfPost = post.date | date: "%d" -%}
 
 {%- if dateOfPost == "01" or dateOfPost == "21" or dateOfPost == "31" -%}
 	{%- assign ordinalEnding = "st" -%}

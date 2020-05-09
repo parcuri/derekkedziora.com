@@ -7,7 +7,7 @@ date: "2020-05-09 23:15:00"
 
 I'm not holding my breath about a remote work revolution once the dust settles. 
 
-Hours each day on video calls. The constant patter of instant messages and emails. Constant interruptions. This is office work from home, not remote work. 
+Hours each day on video calls. The constant patter of instant messages and emails. Unending interruptions. This is office work at home, not remote work. 
 
 To get the most out of remote work, and office work for that matter, we *ought* to use this opportunity to give remote work a real try.  
 
@@ -19,7 +19,7 @@ A daily status update in a dedicated (and asynchronous) chat would save a dozen 
 
 It still feels easier to have a meeting. There's no need to plan ahead or refine your thoughts. You get a few people together, have a stream of consciousness, make some decisions on the fly and it *felt like* work. 
 
-Hidden behind the ease of calling a meeting, are some real costs. Take a few professionals away from work for an hour, add in the productivity hit from context switching and you quickly lose the equivalent of a collective day of work. 
+Hidden behind the ease of calling a meeting, are real costs. Take a few professionals away from work for an hour, add in the productivity hit from context switching and you quickly lose the equivalent of a collective day of work. 
 
 Let's quantify it further. I call a meeting because I need to run something by management (2 people). I also need to loop in 3 more people. I give myself 15 minutes to prepare and dump my ideas into a the company slideshow template. The direct cost of that meeting was 6.25 hours.   
 
@@ -37,9 +37,9 @@ There's no need to go overboard with this. There are some things that are better
 
 ## Knowledge management 
 
-When this practice is taken to an organizational level, it become knowledge management. 
+When this practice is taken to an organizational level, it becomes knowledge management. 
 
-Information be store in wiki or similar system. Other teams in an organization can build on your experience without ever even having to contact you. The benefits scale and compound with time. 
+Information should be stored in a wiki or similar system. Other teams in an organization can build on your experience without ever even having to contact you. The benefits scale and compound with time. 
 
 The hours spent in a meeting quickly stop paying dividends. 
 
@@ -51,7 +51,7 @@ The other key to *real* remote work is ability to work asynchronously.
 
 Again, there's no need to go all or nothing with this. A few hours a day&thinsp;—&thinsp;instead of 8&thinsp;—&thinsp;when everyone is expected to be online and responsive keeps people from getting stuck. 
 
-But, letting people be unresponsive for a few hours at time lets them benefit the most from remote work. 
+Beyond a short overlap period, let people be unresponsive for a few hours at time. This allows deep work to happen, and this is often eaiser at home than in the office.
 
 ## Cultural shifts 
 
@@ -61,7 +61,7 @@ What companies should be looking at instead is how to change their processes to 
 
 How can we eliminate meetings instead of holding them from our living rooms? 
 
-What can a company do to promote an internal culture of thoughtful, long-form content a la Amazon's famed six-page memo? 
+What can a company do to promote an internal culture of thoughtful, long-form content such as Amazon's famed six-page memo? 
 
 What software and processes are we using to capture, store and make knowledge retrieval work? Writing about remote work should mention Confluence instead of Zoom. 
 

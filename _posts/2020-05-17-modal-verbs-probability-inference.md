@@ -12,7 +12,7 @@ Modal verbs in English are difficult to master, but they show important nuances 
 
 Most modal verbs carry two very different meanings, even if the form is the same: 
 
-> *I must get going* 
+> *I must get going.* 
 
 *Must* is an obligation in this example.    
 

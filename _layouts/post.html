@@ -21,7 +21,12 @@
 	<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ page.date | date: "%Y" }}</time>
 </header>
 
+{%- if page.english-guide -%}
+	{%- include english_plug.html -%}
+{%- endif -%}
+
 {{ content }}
+
 
 </article>
 

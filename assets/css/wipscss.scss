@@ -260,7 +260,7 @@ aside {
   background-color: var(--box-background-color);
   border-left: 3px solid var(--light-border-color);
   border-right: 3px solid var(--light-border-color);
-  margin: 1.7875rem 0;
+  margin: calc(1.5 * var(--line-height)) 0; //1.7875rem 0;
   padding: .89375rem;;
   h3 {
     font-size: 1rem;

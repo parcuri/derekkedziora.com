@@ -58,7 +58,7 @@ These show the exact same information as *it must have rained*: you didn't see t
 
 <figure>
 <img src="/static/posts/2020-05-17/must-have-rained-ngram.png" alt="Must have rained is far more common than using rained with an adverb of probability" loading="lazy">
-<figcaption>Modal verbs are still more common [<a src="https://books.google.com/ngrams/graph?content=probably+rained%2Cmust+have+rained%2Ccertainly+rained&year_start=1800&year_end=2000&corpus=15&smoothing=3&share=&direct_url=t1%3B%2Cprobably%20rained%3B%2Cc0%3B.t1%3B%2Cmust%20have%20rained%3B%2Cc0%3B.t1%3B%2Ccertainly%20rained%3B%2Cc0#t1%3B%2Cprobably%20rained%3B%2Cc1%3B.t1%3B%2Cmust%20have%20rained%3B%2Cc1%3B.t1%3B%2Ccertainly%20rained%3B%2Cc1">source</a>]</figcaption>
+<figcaption>Modal verbs are still more common [<a href="https://books.google.com/ngrams/graph?content=probably+rained%2Cmust+have+rained%2Ccertainly+rained&year_start=1800&year_end=2000&corpus=15&smoothing=3&share=&direct_url=t1%3B%2Cprobably%20rained%3B%2Cc0%3B.t1%3B%2Cmust%20have%20rained%3B%2Cc0%3B.t1%3B%2Ccertainly%20rained%3B%2Cc0#t1%3B%2Cprobably%20rained%3B%2Cc1%3B.t1%3B%2Cmust%20have%20rained%3B%2Cc1%3B.t1%3B%2Ccertainly%20rained%3B%2Cc1">source</a>]</figcaption>
 </figure>
 
 Using modal verbs is more common for English speakers, but adverbs won't cause any issues. 

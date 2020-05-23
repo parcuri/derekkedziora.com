@@ -8,7 +8,7 @@
     <meta name="description" content="{%- if page.description -%}{{ page.description }}
     {%- else -%}{{ site.description }}{%- endif -%}">
     <meta name="author" content="Derek Kedziora">
-    {%- if pave.no-index -%}
+    {%- if page.no-index -%}
     <meta name="robots" content="noindex" />
     {%- endif -%}
     {%- if page.blogpost -%}

@@ -24,7 +24,7 @@ In Buddhist philosophy one's views opinions are one of the artificial constructs
 What was true 2,500 years ago in India is even more relevant in 21st-century American political discourse. 
 
 > We live in a society where people define themselves by their views.
-> — Ajahn Thanisarro [[source(https://www.youtube.com/watch?v=Ve-aEzPE3FI)
+> — Ajahn Thanisarro [[source](https://www.youtube.com/watch?v=Ve-aEzPE3FI)]
 
 This isn't an invitation to apathy. Instead, the point is not define yourself based on what you believe. Hold malleable opinions, update them as needed and above all be wary to taking yourself too seriously.
 

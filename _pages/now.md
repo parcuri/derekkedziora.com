@@ -6,15 +6,9 @@ layout: post
 date: 2020-05-03
 ---
 
-{%- assign counter = 0 -%}
-
 {%- for post in site.posts -%}
 
 {%- if post.now -%}
-
-{%- assign counter = counter | plus: 1 -%}
-
-{%- if counter == 1 -%}
 
 {%- assign dateOfPost = post.date | date: "%d" -%}
 
@@ -37,16 +31,10 @@ date: 2020-05-03
 	{%- assign prettyDateOfPost = dateOfPost -%}
 {%- endif -%}
 
-<!--
-<header style="text-align: center;">
-<h1>{{ page.title }}</h1>
-<time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time>
-</header>
--->
-
 {{ post.content }}
 
-{%- endif -%}
+{%- break -%}
+
 {%- endif -%}
 
 {% endfor %}

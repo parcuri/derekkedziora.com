@@ -1,5 +1,5 @@
 ---
-title: "What I'm Doing" 
+title: "Now" 
 description: "What I'm currently up to"
 permalink: /now
 layout: default
@@ -36,7 +36,7 @@ layout: default
 	{%- assign prettyDateOfPost = dateOfPost -%}
 {%- endif -%}
 
-<header>
+<header style="text-align: center;">
 <h1>{{ page.title }}</h1>
 <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ post.date | date: "%Y" }}</time>
 </header>

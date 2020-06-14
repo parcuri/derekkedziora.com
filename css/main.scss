@@ -105,7 +105,7 @@ p, li {
 }
 
 nav {
-  border-bottom: 1px solid var(--light-border-color);
+  //border-bottom: 1px solid var(--light-border-color);
   letter-spacing: -.05em;
   line-height: 1.2;
   padding: 1em 0; 
@@ -124,29 +124,48 @@ nav {
 }
 
 article {
-  margin: 10vh 0 0 0;
+  margin: 0;
   max-width: $text-width;
   width: 100%;
 }
 
 
-nav + article {
-  margin-top: 7vh;
-}
-
 header {
-  margin-bottom: 5vh;
+  margin: calc(var(--line-height) * 3) 0 calc( 2 * var(--line-height)) 0;///0 calc(var(--line-height) * 2) 0;
   h1 {
-    font-size: 2.5rem;
+    border-bottom: 1px solid var(--light-text-color);
+    font-size: 2.0625rem;//33px;//2.5rem;
     letter-spacing: -.01em; 
     line-height: 1.1;
+    padding-bottom: calc(.45 * var(--line-height));
   }
-  time {
-    color: var(--light-text-color);
-    display: block;
+  p {
+    color: var(--main-text-color);
+    font-size: 1.25rem;
     font-style: italic;
-    line-height: 1;
-    padding: 2em 0 0 0;
+    line-height: 1.2;
+    padding-top: calc(.75 * var(--line-height));
+    a {
+      color: var(--light-text-color);
+      text-decoration: none;
+    }
+  }
+  p + p {
+    color: var(--main-text-color);
+    font-size: 1rem;
+    margin: calc( .75 * var(--line-height)) 0 0 0;
+    //text-align: center;
+    font-style: normal;
+    padding: 0;
+    //font-weight: bold;
+    time {
+      //color: var(--main-text-color);
+      font-style: normal;
+
+    }
+    a {
+      //color: var(--main-text-color);
+    }
   }
   nav {
     border: none;
@@ -172,9 +191,11 @@ p + *, ul + *, ol + *, blockquote + *, figure + * {
 
 
 h2, h3 {
-  font-size: 1.625rem; // 26px 
+  font-size: 20px;//24px;//1.625rem; // 26px 
+  text-transform: uppercase;
+  letter-spacing: .05em;
   line-height: 1.15; // 
-  margin: calc(var(--line-height) * 2.5) 0 calc(var(--line-height) * 1.5) 0;
+  margin: calc(var(--line-height) * 2) 0 calc(var(--line-height) * 1) 0;
 }
 
 ul, ol {
@@ -184,7 +205,7 @@ ul, ol {
 
 
 ul {
-  //list-style-type: circle;
+  list-style-type: circle;
 }
 
 ul li::marker {
@@ -205,14 +226,16 @@ blockquote {
   border-left: 3px solid var(--light-border-color);
   margin: 1.7875rem 0;
   p {
+    font-size: 1.25rem;
     font-style: italic;
+    line-height: 1.2;
     padding: 0 1.7875rem;
   }
 }
 
 time {
   color: var(--light-text-color);
-  display: block;
+  //display: block;
   font-size: 1rem;
   font-style: italic;
 }
@@ -264,7 +287,9 @@ aside {
   padding: .89375rem;;
   h3 {
     font-size: 1rem;
+    letter-spacing: 0;
     margin: 0 0 .6875em 0;
+    text-transform: none;
   }
   p, li {
     font-size: 1rem; //16px 
@@ -278,6 +303,22 @@ aside {
   }
 }
 
+.quote-attribution {
+  font-style: italic;
+  margin-top: calc( .5 * var(--line-height));
+  text-indent: var(--line-height);
+}
+
+#theme-toggle {
+  color: var(--light-text-color);
+  cursor: pointer;
+  display: block;
+  float: right;
+  margin: 2em 0 0 0;
+  text-decoration: none;
+  //text-transform: uppercase;
+  font-size: 12px;
+}
 
 
 @media screen and(max-width: 30em) {

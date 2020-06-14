@@ -1,5 +1,6 @@
 ---
 title: Reframing the Discussion
+description: "There aren't debates anymore because we've tied opinions to identity."
 note: true
 date: "2020-05-25 23:06"
 permalink: /blog/reframing-the-discussion
@@ -23,8 +24,9 @@ In Buddhist philosophy one's views opinions are one of the artificial constructs
 
 What was true 2,500 years ago in India is even more relevant in 21st-century American political discourse. 
 
-> We live in a society where people define themselves by their views.<br>
-> — Ajahn Thanissaro, [The Flood of Views](https://www.youtube.com/watch?v=Ve-aEzPE3FI)
+> We live in a society where people define themselves by their views.
+> 
+> <p class="quote-attribution" markdown="1">— Ajahn Thanissaro, [The Flood of Views](https://www.youtube.com/watch?v=Ve-aEzPE3FI)</p> 
 
 This isn't an invitation to apathy. Instead, the point is not define yourself based on what you believe. Hold malleable opinions, update them as needed and above all be wary to taking yourself too seriously.
 

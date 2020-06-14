@@ -7,18 +7,18 @@
 </head>
 
 <body>
-
-<nav> 
-	<a href="/" title="Derek Kedziora" rel="author">Derek Kedziora</a>&emsp;
-	<a href="/blog">Blog</a>
-	<a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer; float: right; margin: 0;"></a>
-</nav>
-
 <article>
+
+<a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" aria-hidden='true'></a>
 
 <header>
 	<h1>{{ page.title }}</h1>
-	<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ page.date | date: "%Y" }}</time>
+
+	<p>{{ page.description }}</p>
+
+	<p><a href="/" title="Derek Kedziora" rel="author">Derek Kedziora</a>&ensp;&middot;&ensp;
+	<time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B" }} {{prettyDateOfPost}}{{ ordinalEnding }}, {{ page.date | date: "%Y" }}</time></p>
+
 </header>
 
 {%- if page.english-guide -%}

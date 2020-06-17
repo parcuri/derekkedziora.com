@@ -201,7 +201,7 @@ If you do notice it though, add the last section of code to the top of your page
 
 ## The complete code 
 
-You can check out my complete [CSS code](https://github.com/derekkedziora/derekkedziora.com/blob/master/css/main.scss) and the entire section of [javascript](https://github.com/derekkedziora/derekkedziora.com/blob/master/assets/scripts/mode-switcher.js)  without comments on my GitHub. Feel free to copy and paste. Or if you prefer to see it in context, [here's the whole repo](https://github.com/derekkedziora/derekkedziora.com). 
+You can check out my complete [CSS code](https://github.com/derekkedziora/derekkedziora.com/blob/master/css/main.scss) and the entire section of [javascript](https://github.com/derekkedziora/derekkedziora.com/blob/master/scripts/mode-switcher.js)  without comments on my GitHub. Feel free to copy and paste. Or if you prefer to see it in context, [here's the whole repo](https://github.com/derekkedziora/derekkedziora.com). 
 
 Happy dark moding! 🤓
 

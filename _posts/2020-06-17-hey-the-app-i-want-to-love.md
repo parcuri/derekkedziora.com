@@ -52,7 +52,7 @@ There are two viable boycott options for Hey.
 
 The majority of iOS users would hardly notice the difference. 
 
-If making premium apps for iOS is not longer profitable due to Apple's 30% cut, users will leave iOS in droves. Apple knows this. That's why Netflix is allowed a workaround: Apple isn't willing to bet most people are more loyal to them than Netflix. 
+If making apps for iOS is no longer profitable due to Apple's 30% cut, users will leave iOS in droves. Apple knows this. That's why Netflix is allowed a workaround: Apple isn't willing to bet most people are more loyal to them than Netflix. 
 
 For all the cries of monopoly, there's a cheaper and arguably *better* mobile platform. People buy iPhones because they want the walled garden. So many high end apps are iOS only because it's still far more lucrative despite the Apple tax. 
 
